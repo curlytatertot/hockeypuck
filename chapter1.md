@@ -21,7 +21,7 @@
 
 ### 3) To revise and order FILTERS
 
-###     a) Navigate to the  "+/-" button above the focus column to open controls.  Select the "Edit" option.
+    a) Navigate to the  "+/-" button above the focus column to open controls.  Select the "Edit" option.
     
     b) Scroll to select the filters you with to add or delete.  Filter names are sorted alphabetically.
     
