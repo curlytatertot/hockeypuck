@@ -3,7 +3,7 @@
 ## [Configure the filters and stats on my layout?](faq/filters_and_statistics__data_lenses_configuration.md)
 ## [Bloomberg data: Settings](faq/settings/bloomberg_data.md)
 ## [Contact and support: Settings](faq/settings/contact_and_support.md)
-## [Display: Settings](#display_settings)
+## [Display: Settings](faq/settings/display_data.md)
 ## [Layout view: Settings](#layout_settings)
 ## [Page view: Settings](#page_settings)
 ## [Vault data: Settings](#vault_settings)
