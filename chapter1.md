@@ -1,6 +1,6 @@
 # FAQs
 
-# [How do I configure the filters and stats on my layout?](filters_stats)
+# [How do I configure the filters and stats on my layout?][filters_stats](filters_stats)
 
 [filters_stats]
 ### Filters: Add, Edit, Arrange
