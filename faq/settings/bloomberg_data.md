@@ -1,4 +1,4 @@
-# FAQ: Bloomberg Data
+# Bloomberg Data: Settings
 
 ## _How do I configure Bloomberg data for Lightkeeper?_
 ## [FTP](#ftp) | [Web Services](#websvs)
