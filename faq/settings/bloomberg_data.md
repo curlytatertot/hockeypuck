@@ -29,6 +29,9 @@
 ##### **CAVEATS**
 ##### _+ Bloomberg charges a monthly fee PER SECURITY with varied pricing across different asset classes.  Lightkeeper will request data in ways to help minimize those fees._
 ##### _+ A user must be selected whose pricing preferences should be set to adjust historical prices and volume.  Any subsequent changes to these preferences will adversely impact the data being requested from Bloomberg._
+
+#### [Illustrated: Download PDF &#151; Guide to Bloomberg FTP Setup](www.lightkeeper.com/gitbook/Lightkeeper_BloombergFTPsetup.pdf)
+![](bloomberg_ftp_500.png)
 ---
 
 ### Statistics (Data Lenses): Add, Edit, Arrange
