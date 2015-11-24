@@ -8,4 +8,5 @@
 * [Display Data](faq/settings/display_data.md)
 * [Layout](faq/settings/layout.md)
 * [Page](faq/settings/page.md)
+* Vault
 
