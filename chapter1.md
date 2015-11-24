@@ -35,7 +35,7 @@
 
 ##### 4) When done, re-click the "LOCK" icon to save your filters layout.
 ---
-## Configure Filters and Stats <a id="filters-stats"></a>
+## How do I configure the filters and stats on my layout? <a id="filters-stats"></a>
 ###Illustrated Help-sheet: Manage Filters and Stats / Data Lenses in your Layout
 
 ![filters and stats illustrated guide](Lightkeeper_Stats-Filters-1.png)!
