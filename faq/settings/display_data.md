@@ -1,4 +1,4 @@
-# Display Data
+# Display Data: Settings
 
 ## _How do I adjust how my data is displayed in Lightkeeper?_
 
