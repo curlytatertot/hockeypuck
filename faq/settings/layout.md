@@ -1,4 +1,4 @@
-# Layout Defaults
+# Layout Defaults: Settings
 
 ## _How do I purge my changes to revert to the Lightkeeper default layout view?_
 
