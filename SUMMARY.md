@@ -9,4 +9,5 @@
 * [Layout](faq/settings/layout.md)
 * [Page](faq/settings/page.md)
 * [Vault](faq/settings/vault.md)
+* System Status
 
