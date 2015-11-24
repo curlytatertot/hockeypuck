@@ -10,4 +10,5 @@
 * [Page](faq/settings/page.md)
 * [Vault](faq/settings/vault.md)
 * [System Status](faq/settings/system_status.md)
+* Historical Gross
 
