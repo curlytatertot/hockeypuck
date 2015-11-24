@@ -1,15 +1,17 @@
 # FAQ: Bloomberg Data
 
 ## _How do I configure Bloomberg data for Lightkeeper?_
+## [FTP](#ftp) | [Web Services](#websvs)
 
-### Bloomberg Data License **FTP** Set-up
+<a id="ftp"></a>
+### Bloomberg Data License **FTP** Set-up 
 
 ##### 1) Contact Bloomberg to obtain your **Bloomberg Data License FTP decryption key and password** credentials.
 
 | |Things to keep in mind when speaking to your Bloomberg account representative: |
 |----:|----|
 |a) |Emphasize that the data will be used on **your server** and not on a third-party's server to avoid additional ongoing fees and addendums to your Bloomberg contract.|
-|b) |Though Lightkeeper sets up a cloud-based server on your behalf, **you own the server.**|
+|b) |Though Lightkeeper sets up a cloud-based server on your behalf, **your own the server.**|
 |c) |Bloomberg data does not leave your server.|
 |d) |You will receve two emails: (1) your **username and decryption key** and (2) your **password.**|
 
@@ -20,7 +22,7 @@
 |----:|----|
 |a) |Log into Bloomberg, then go to "**DPDF &lt;GO&gt;**" and ensure all items are **checked.**|
 |b) |Go to "**IAM &lt;GO&gt;**" and get the following numbers and input into the appropriate fields in Lightkeeper:|
-| | &nbsp; &nbsp;  **USERNUMBER** is found nest to the **User** field.|
+| | &nbsp; &nbsp;  **USERNUMBER** is found next to the **User** field.|
 | | &nbsp; &nbsp;  **SN** is the **S/N** number BEFORE the hyphen.|
 | | &nbsp; &nbsp;  **WS** is the **S/N** number AFTER the hyphen.|
 
@@ -31,25 +33,35 @@
 ##### _+ A user must be selected whose pricing preferences should be set to adjust historical prices and volume.  Any subsequent changes to these preferences will adversely impact the data being requested from Bloomberg._
 
 #### [Illustrated: Download PDF &#151; Guide to Bloomberg FTP Setup](www.lightkeeper.com/gitbook/Lightkeeper_BloombergFTPsetup.pdf)
-![](bloomberg_ftp_500.png)
----
+![](bloomberg_ftpsetup.png)
 
-### Statistics (Data Lenses): Add, Edit, Arrange
+***
 
-##### 1) Navigate to "DASHBOARD" view
-##### 2) Open controls by clicking on "LOCK" icon in system icon area
-##### 3) Click on the "+" button in the section you wish to edit: Performance, Exposure, Trading, Risk, Marketplate.  Scroll down to see all sections.  
+<a id="websvs"></a>
+### Bloomberg Data License **Web Services** Set-up 
 
-| |To **Edit** and **Order** data lenses: |
+##### 1) Contact Bloomberg to obtain your **Bloomberg Data Web Services** credentials.
+
+| |Things to keep in mind when speaking to your Bloomberg account representative: |
 |----:|----|
-|a) |Scroll to select the statistic you with to add or delete.  Filter names are sorted alphabetically.|
-|b) |To add statistics, click the name of the filter, then click on the green "+" sign.|
-|b) |To delete statistics, while in "unlock" mode, click the red "x" on the right-hand corner of each data lens.|
-|d) |To re-order data lenses / statistics in your layout, drag and drop within the section.|
+|a) |Emphasize that the data will be used on **your server** and not on a third-party's server to avoid additional ongoing fees and addendums to your Bloomberg contract.|
+|b) |Though Lightkeeper sets up a cloud-based server on your behalf, **your own the server.**|
+|c) |Bloomberg data does not leave your server.|
 
-##### 4) When done, re-click the "LOCK" icon to save your filters layout.
----
+##### 2) Enter the **Bloomberg terminal information** into Lightkeeper:
+| |Click on the **Settings** icon ![](icon_settings.png) on the upper right of the Lightkeeper screen and navigate to "Bloomberg"  |
+|----:|----|
+|a) |Log into Bloomberg, then go to "**DPDF &lt;GO&gt;**" and ensure all items are **checked.**|
+|b) |Go to "**IAM &lt;GO&gt;**" and get the following numbers and input into the appropriate fields in Lightkeeper:|
+| | &nbsp; &nbsp;  **USERNUMBER** is found next to the **User** field.|
+| | &nbsp; &nbsp;  **SN** is the **S/N** number BEFORE the hyphen.|
+| | &nbsp; &nbsp;  **WS** is the **S/N** number AFTER the hyphen.|
 
-###Illustrated Help-sheet: Manage Filters and Stats / Data Lenses in your Layout
+##### 4) When done, click on "Submit" to finish.
 
-![filters and stats illustrated guide](Lightkeeper_Stats-Filters-1.png)!
+##### **CAVEATS**
+##### _+ Bloomberg charges a monthly fee PER SECURITY with varied pricing across different asset classes.  Lightkeeper will request data in ways to help minimize those fees._
+##### _+ A user must be selected whose pricing preferences should be set to adjust historical prices and volume.  Any subsequent changes to these preferences will adversely impact the data requested from Bloomberg._
+
+#### [Illustrated: Download PDF &#151; Guide to Bloomberg Web Services Setup](www.lightkeeper.com/gitbook/Lightkeeper_Bloomberg_WebSvs.pdf)
+![](bloomberg_websvs.png)
