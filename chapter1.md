@@ -2,7 +2,7 @@
 
 ## [Configure the filters and stats on my layout?](faq/filters_and_statistics__data_lenses_configuration.md)
 ## [Bloomberg data: Settings](faq/settings/bloomberg_data.md)
-## [Contact and support: Settings](#contact_settings)
+## [Contact and support: Settings](#faq/settings/contact_and_support.md)
 ## [Data display: Settings](#display_settings)
 ## [Layout view: Settings](#layout_settings)
 ## [Page view: Settings](#page_settings)
