@@ -2,7 +2,7 @@
 
 # [How do I configure the filters and stats on my layout?](#filters_stats)
 
-<a name=filters_stats></a>
+<a name="filters_stats"></a>
 ### Filters: Add, Edit, Arrange
 
 ##### 1) Navigate to "DASHBOARD" view
