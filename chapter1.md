@@ -1,6 +1,6 @@
 # FAQs &#151; How do I ...?
 
-## [Configure the filters and stats on my layout?](#filters-stats)
+## [Configure the filters and stats on my layout?](filters_and_statostocs__data_lenses_configuration.md)
 ## [Bloomberg data: Settings](#bloomberg_settings)
 ## [Contact and support: Settings](#contact_settings)
 ## [Data display: Settings](#display_settings)
