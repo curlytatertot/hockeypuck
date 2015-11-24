@@ -3,7 +3,7 @@
 ## _How can I deliver files and patches to Lightkeeper for processing?_
 
 
-![](icon_settings.png) Click on the **Settings** icon on the upper right of the Lightkeeper screen and navigate to "Page"
+![](icon_settings.png) Click on the **Settings** icon on the upper right of the Lightkeeper screen and navigate to "Vault"
 
 ##### To **upload** files:
 + drag and drop into the "Drag files here" area
