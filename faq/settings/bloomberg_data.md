@@ -1,33 +1,34 @@
-# Bloomberg Data
+# FAQ: Bloomberg Data
 
-# FAQs &#151; How do I ...?
+## _How do I configure Bloomberg data for Lightkeeper?_
 
-## [Configure the filters and stats on my layout?](faq/filters_and_statistics__data_lenses_configuration.md)
-## [Bloomberg data: Settings](#bloomberg_settings)
-## [Contact and support: Settings](#contact_settings)
-## [Data display: Settings](#display_settings)
-## [Layout view: Settings](#layout_settings)
-## [Page view: Settings](#page_settings)
-## [Vault data: Settings](#vault_settings)
-## [System status: Settings](#system_settings)
-## [Get numbers for historical gross and net exposures since inception: Use Case](#historicalgross_usecase)
-## [Statistics / Data Lens definitions and examples: Glossary](#glossary)
+### Bloomberg Data License **FTP** Set-up
 
-## _How do I configure the filters and stats on my layout?_ <a id="filters-stats"></a>
-### Filters: Add, Edit, Arrange
+##### 1) Contact Bloomberg to obtain your **Bloomberg Data License FTP decryption key and password** credentials.
 
-##### 1) Navigate to "DASHBOARD" view
-##### 2) Open controls by clicking on "LOCK" icon in system icon area
-##### 3) Navigate the Filters lightbox
-
-| |To **Edit** and **Order** filters: |
+| |Things to keep in mind when speaking to your Bloomberg account representative: |
 |----:|----|
-|a) |Navigate to the "+/-" button above the focus column to open controls.  Select the **Edit** option.|
-|b) |Scroll to select the filters you with to add or delete.  Filter names are sorted alphabetically.|
-|c) |To add filters, click the check-box; to delete, un-check the box.  You can add or delete multiple filters. Click on the blue "OK" button bar to finalize your selections.|
-|d) |To re-order filters in your layout, select the "Order" option, and drag-and-drop the filter titles to move them.  Click on the blue "OK" button bar to finalize your selections.|
+|a) |Emphasize that the data will be used on **your server** and not on a third-party's server to avoid additional ongoing fees and addendums to your Bloomberg contract.|
+|b) |Though Lightkeeper sets up a cloud-based server on your behalf, **you own the server.**|
+|c) |Bloomberg data does not leave your server.|
+|d) |You will receve two emails: (1) your **username and decryption key** and (2) your **password.**|
 
-##### 4) When done, re-click the "LOCK" icon to save your filters layout.
+##### 2) Log into your Bloomberg account at https://service.bloomberg.com and request to **add the IP address of the Lightkeeper server to the FTP whitelist.**  Lightkeeper will provide you with these IP addresses.
+
+##### 3) Enter the **Bloomberg terminal information** into Lightkeeper:
+| |Click on the **Settings** icon ![](icon_settings.png) on the upper right of the Lightkeeper screen and navigate to "Bloomberg"  |
+|----:|----|
+|a) |Log into Bloomberg, then go to "**DPDF &lt;GO&gt;**" and ensure all items are **checked.**|
+|b) |Go to "**IAM &lt;GO&gt;**" and get the following numbers and input into the appropriate fields in Lightkeeper:|
+| | &nbsp; &nbsp;  **USERNUMBER** is found nest to the **User** field.|
+| | &nbsp; &nbsp;  **SN** is the **S/N** number BEFORE the hyphen.|
+| | &nbsp; &nbsp;  **WS** is the **S/N** number AFTER the hyphen.|
+
+##### 4) When done, click on "Submit" to finish.
+
+##### **CAVEATS**
+##### _+ Bloomberg charges a monthly fee PER SECURITY with varied pricing across different asset classes.  Lightkeeper will request data in ways to help minimize those fees._
+##### _+ A user must be selected whose pricing preferences should be set to adjust historical prices and volume.  Any subsequent changes to these preferences will adversely impact the data being requested from Bloomberg._
 ---
 
 ### Statistics (Data Lenses): Add, Edit, Arrange
