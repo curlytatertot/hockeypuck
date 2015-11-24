@@ -6,4 +6,5 @@
 * [Bloomberg Data](faq/settings/bloomberg_data.md)
 * [Contact and Support](faq/settings/contact_and_support.md)
 * [Display Data](faq/settings/display_data.md)
+* Layout
 
