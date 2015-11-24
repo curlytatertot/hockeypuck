@@ -1,6 +1,6 @@
 # Contact and Support
 
-## _How can I get more answers / help ?_
+## _How can I get more answers or help ?_
 
 ### Support Details 
 
