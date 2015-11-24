@@ -1,9 +1,17 @@
-# FAQs
+# FAQs &#151; How do I ...?
 
-# [How do I configure the filters and stats on my layout?](#filters-stats)
+## [Configure the filters and stats on my layout?](#filters-stats)
+## [Bloomberg data: Settings](#bloomberg_settings)
+## [Contact and support: Settings](#contact_settings)
+## [Data display: Settings](#display_settings)
+## [Layout view: Settings](#layout_settings)
+## [Page view: Settings](#page_settings)
+## [Vault data: Settings](#vault_settings)
+## [System status: Settings](#system_settings)
+## [Get numbers for historical gross and net exposures since inception: Use Case](#historicalgross_usecase)
+## [Statistics / Data Lens definitions and examples: Glossary](#glossary)
 
-
-
+## _How do I configure the filters and stats on my layout?_ <a id="filters-stats"></a>
 ### Filters: Add, Edit, Arrange
 
 ##### 1) Navigate to "DASHBOARD" view
@@ -35,7 +43,7 @@
 
 ##### 4) When done, re-click the "LOCK" icon to save your filters layout.
 ---
-## How do I configure the filters and stats on my layout? <a id="filters-stats"></a>
+
 ###Illustrated Help-sheet: Manage Filters and Stats / Data Lenses in your Layout
 
 ![filters and stats illustrated guide](Lightkeeper_Stats-Filters-1.png)!
