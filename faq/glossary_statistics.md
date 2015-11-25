@@ -23,48 +23,41 @@ Decomposition of P&L into selection, timing, sizing, and execution components. T
 
 **Alpha return (levered)** ```PERFORMANCE``` &#151; The risk-adjusted portfolio (or sub-portfolio) out performance versus the SPY_US index. It is computed as the portfolio return less the index return, where the index return (SPY_US) is scaled by average portfolio net exposure for the period.
 
-Alpha return (period) PERFORMANCE
-Portfolio return minus index return times avg net exposure per time period interval.
-Example In this case 1.32% is the total Alpha return value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Alpha return values seen in the period.The security with the largest total Alpha return was SPY Residual at 4.4%.
-Alpha return (simple) PERFORMANCE
-The risk-adjusted portfolio (or sub-portfolio) out performance versus the SPY_US index. It is computed as the portfolio return less the SPY_US index return.
-Example In this case -0.413% is the total alpha-return-simple value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total alpha-return-simple values seen in the period.The security with the largest total alpha-return-simple was AAPL_US at 7.87%.
-Alpha return (unit) PERFORMANCE
+**Alpha return (period)** ```PERFORMANCE``` &#151; Portfolio return minus index return times avg net exposure per time period interval.
+
+**Alpha return (simple)** ```PERFORMANCE``` &#151; The risk-adjusted portfolio (or sub-portfolio) out performance versus the SPY_US index. It is computed as the portfolio return less the SPY_US index return.
+
+**Alpha return (unit)** ```PERFORMANCE``` &#151; 
 Alpha return assuming unit beta to the SPY_US index.
-Example In this case 0.141% is the total alpha-return-unit value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total alpha-return-unit values seen in the period.The security with the largest total alpha-return-unit was SPY Residual at 4.4%.
-Annualized Return PERFORMANCE
-The total return of the portfolio, annualized and expressed as a percentage.
-Example In this case 15.3% is the total annualized-return value over the period from July 2009 to November 2015as a percentage.The Hi and Lo values represent the largest and smallest total annualized-return values seen in the period.The security with the largest total annualized-return was AAPL_US at 0.753%.
-Annualized Return (non-zero) PERFORMANCE
+
+**Annualized Return** ```PERFORMANCE``` &#151; The total return of the portfolio, annualized and expressed as a percentage.
+
+**Annualized Return (non-zero)** ```PERFORMANCE``` &#151; 
 Annualized return, counting only times with non-zero returns. Allows comparisons of return sequences with different holding times.
-Example In this case 16 is the total Annualized Return value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest total Annualized Return values seen in the period.The security with the largest total Annualized Return was ABG_US at 1.49.
-Annualized Return (since active) PERFORMANCE
+
+**Annualized Return (since active)** ```PERFORMANCE``` &#151; 
 Annualized return, counting only times since first non-zero return. Allows comparisons of return sequences with different active times.
-Example In this case 15.3 is the total Annualized Return value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest total Annualized Return values seen in the period.The security with the largest total Annualized Return was AAPL_US at 0.754.
-Arithmetic returns PERFORMANCE
+
+**Arithmetic returns** ```PERFORMANCE``` &#151; 
 Arithmetic portfolio returns.
-Example In this case 103 is the total Arithmetic returns value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest total Arithmetic returns values seen in the period.The security with the largest total Arithmetic returns was AAPL_US at 5.
-Average daily return PERFORMANCE
-The average daily return of positions in a portfolio or sub-portfolio.
-Example In this case 0.000129% is the average daily return per position between July 2009 and November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average returns per position per day seen in the period.The biggest winner over the period was AAPL_US returning 0.00299% per position day.
-Formula Daily returns are calculated as the sum of individual instrument returns ($) for the day divided by the previous day's closing capital and the number of instruments with non-zero returns:
-\[ ADR^{daily}_t = \frac{\sum\limits_{i} R^{daily}_{i,t}}{ CAP_{t-1} \times |\{ i: R^{daily}_{i,t} \ne 0 \}|} \]
+
+**Average daily return** ```PERFORMANCE``` &#151; 
+The average daily return of positions in a portfolio or sub-portfolio.Formula Daily returns are calculated as the sum of individual instrument returns ($) for the day divided by the previous day's closing capital and the number of instruments with non-zero returns:<BR>
+
+$$ ADR^{daily}_t = \frac{\sum\limits_{i} R^{daily}_{i,t}}{ CAP_{t-1} \times |\{ i: R^{daily}_{i,t} \ne 0 \}|}$$ <BR>
+
 The monthly values are averaged over each day in the corresponding month.
 Average gross exposure over rollups. EXPOSURE
 Average delta adjusted gross exposure of positions.
-Example In this case 0.2% is the average value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average values seen in the period.The security with the largest average was AAPL_US at 3.14%.
-Average net exposure over rollups. EXPOSURE
-Average delta adjusted net exposure of positions.
-Example In this case 0.2% is the average value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average values seen in the period.The security with the largest average was AAPL_US at 3.14%.
-Average of down days PERFORMANCE
+
+**Average of down days** ```PERFORMANCE``` &#151; 
 The average daily portfolio or sub-portfolio return for days on which the portfolio had a negative return from the start of the selected time period until the indicated day.
-Example In this case -0.731% is the average-of-down-days value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average-of-down-days values seen in the period.The security with the most extreme average-of-down-days was SPY Residual at -0.0446%.
-Average of down days when index down PERFORMANCE
+
+**Average of down days when index down** ```PERFORMANCE``` &#151; 
 The average daily portfolio or sub-portfolio return for days on which the portfolio had a negative return from the start of the selected time period until the indicated day, computed on days when the SPY_US index is down.
-Example In this case -0.731% is the average-of-down-days-when-index-down value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average-of-down-days-when-index-down values seen in the period.The security with the most extreme average-of-down-days-when-index-down was SPY Residual at -0.0513%.
-Average of down days when index up PERFORMANCE
-The average daily portfolio or sub-portfolio return for days on which the portfolio had a negative return from the start of the selected time period until the indicated day, computed on days when the SPY_US index is up.
-Example In this case 0.0% is the average-of-down-days-when-index-up value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average-of-down-days-when-index-up values seen in the period.The security with the most extreme average-of-down-days-when-index-up was SPY Residual at -0.0374%.
+
+**Average of down days when index up** ```PERFORMANCE``` &#151; The average daily portfolio or sub-portfolio return for days on which the portfolio had a negative return from the start of the selected time period until the indicated day, computed on days when the SPY_US index is up.
+
 Average of down interval PERFORMANCE
 Average of down interval
 Example In this case -2.91% is the Average of down interval value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Average of down interval values seen in the period.The security with the largest Average of down interval was AGL_US at 0.0%.
