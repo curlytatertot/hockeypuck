@@ -10,4 +10,5 @@
 * [Vault](faq/settings/vault.md)
 * [System Status](faq/settings/system_status.md)
 * [Historical Gross](usecase/historical_gross.md)
+* Glossary: Statistics
 
