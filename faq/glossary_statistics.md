@@ -1,35 +1,28 @@
 # Glossary: Statistics
 
-####Active Management (Avg held wgt return) ```TRADING```
-Decomposition of P&L into selection, timing, sizing, and execution components. The timing component leading term is the return of a portfolio having weights equal to the average weights during the time the position is held.
+**Active Management (Avg held wgt return)** ```TRADING``` &#151; Decomposition of P&L into selection, timing, sizing, and execution components. The timing component leading term is the return of a portfolio having weights equal to the average weights during the time the position is held.
 
-####Active Management (Daily wgt return) ```TRADING```
-Decomposition of P&L into selection, timing, sizing, and execution components. The sizing component leading term is the return of a portfolio having weights equal to the daily portfolio weights.
+**Active Management (Daily wgt return)** ```TRADING``` &#151; Decomposition of P&L into selection, timing, sizing, and execution components. The sizing component leading term is the return of a portfolio having weights equal to the daily portfolio weights.
 
 
-#####**Active Management (Execution)** ```TRADING``` &#151; Decomposition of P&L into selection, timing, sizing, and execution components. The execution component is the actual return minus the return of a portfolio having weights equal to the portfolio weights.
+**Active Management (Execution)** ```TRADING``` &#151;Decomposition of P&L into selection, timing, sizing, and execution components. The execution component is the actual return minus the return of a portfolio having weights equal to the portfolio weights.
 
-Active Management (Selection) TRADING
+**Active Management (Selection)** ```TRADING``` &#151; 
 Decomposition of P&L into selection, timing, sizing, and execution components. The selection component is the return of a portfolio having weights equal to the average weights over the entire period.
-Example In this case 167% is the total Active Management value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Active Management values seen in the period.The security with the largest total Active Management was AAPL_US at 10.2%.
-Active Management (Sizing) TRADING
+
+**Active Management (Sizing)** ```TRADING``` &#151; 
 Decomposition of P&L into selection, timing, sizing, and execution components. The sizing component is the return of a portfolio having weights equal to the portfolio weights minus the average weights during the time the position is held.
-Example In this case -14.8% is the total Active Management value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Active Management values seen in the period.The security with the largest total Active Management was IBM_US at 0.48%.
-Active Management (Timing) TRADING
-Decomposition of P&L into selection, timing, sizing, and execution components. The timing component is the return of a portfolio having weights equal to the average weights during the time the position is held minus the average weight over the entire period.
-Example In this case 0.261% is the total Active Management value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Active Management values seen in the period.The security with the largest total Active Management was GOOG_US_1 at 0.616%.
-Additivity factor PERFORMANCE
-Additivity factor used to make component returns sum to the total return.
-Example In this case 2.57 is the Additivity factor value at the end of November 2015 .The Hi and Lo values represent the largest and smallest Additivity factor values seen in the period.The security with the largest Additivity factor was A_US at 2.57.
-Alpha return (Jensen's) PERFORMANCE
-The risk-adjusted portfolio (or sub-portfolio) out performance versus the SPY_US index. It is computed as the portfolio return less the beta return.
-Example In this case 1.9% is the total alpha-return-jensens value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total alpha-return-jensens values seen in the period.The security with the largest total alpha-return-jensens was SPY Residual at 4.4%.
-Alpha return (direct) PERFORMANCE
-Portfolio return minus index return times avg net exposure. Compounded then weighted.
-Example In this case -0.181% is the total Alpha return value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Alpha return values seen in the period.The security with the largest total Alpha return was SPY Residual at 4.4%.
-Alpha return (levered) PERFORMANCE
-The risk-adjusted portfolio (or sub-portfolio) out performance versus the SPY_US index. It is computed as the portfolio return less the index return, where the index return (SPY_US) is scaled by average portfolio net exposure for the period.
-Example In this case 0.465% is the total alpha-return-levered value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total alpha-return-levered values seen in the period.The security with the largest total alpha-return-levered was SPY Residual at 4.4%.
+
+**Active Management (Timing)** ```TRADING``` &#151; Decomposition of P&L into selection, timing, sizing, and execution components. The timing component is the return of a portfolio having weights equal to the average weights during the time the position is held minus the average weight over the entire period.
+
+**Additivity factor** ```PERFORMANCE``` &#151; Additivity factor used to make component returns sum to the total return.
+
+**Alpha return (Jensen's)** ```PERFORMANCE``` &#151; The risk-adjusted portfolio (or sub-portfolio) out performance versus the SPY_US index. It is computed as the portfolio return less the beta return.
+
+**Alpha return (direct)** ```PERFORMANCE``` &#151; Portfolio return minus index return times avg net exposure. Compounded then weighted.
+
+**Alpha return (levered)** ```PERFORMANCE``` &#151; The risk-adjusted portfolio (or sub-portfolio) out performance versus the SPY_US index. It is computed as the portfolio return less the index return, where the index return (SPY_US) is scaled by average portfolio net exposure for the period.
+
 Alpha return (period) PERFORMANCE
 Portfolio return minus index return times avg net exposure per time period interval.
 Example In this case 1.32% is the total Alpha return value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Alpha return values seen in the period.The security with the largest total Alpha return was SPY Residual at 4.4%.
