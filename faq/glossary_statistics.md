@@ -763,14 +763,14 @@ The daily weight minus the rolling average weight used in the tactical term
 
 **Strategy Decomp (tactical)** ```TRADING``` &#151; 
 Decomposition of P&L into baseline, strategic, tactical, and execution components. The tactical component is the return of a portfolio having weight equal to the actual weight less the rolling average weight.
-Example In this case -1.37% is the total Strategy Decomp value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Strategy Decomp values seen in the period.The security with the largest total Strategy Decomp was XOM_US at 0.266%.
-Strategy Decomp (tactical, benchmark) TRADING
+
+**Strategy Decomp (tactical, benchmark)** ```TRADING``` &#151; 
 Decomposition of P&L into baseline, strategic, tactical, and execution components. The tactical benchmark component is the return of a portfolio having weight equal to the start of day weight less the rolling average weight times the benchmark return. The benchmark return is the index return.
-Example In this case -0.145% is the total Strategy Decomp value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Strategy Decomp values seen in the period.The security with the largest total Strategy Decomp was XOM_US at 0.0578%.
-Strategy Decomp (tactical, excess) TRADING
+
+**Strategy Decomp (tactical, excess)** ```TRADING``` &#151; 
 Decomposition of P&L into baseline, strategic, tactical, and execution components. The excess benchmark component is the return of a portfolio having weight equal to the start of day weight less the rolling average weight times the excess return. The excess return is the underlying instrument return minus the index return.
-Example In this case -1.22% is the total Strategy Decomp value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Strategy Decomp values seen in the period.The security with the largest total Strategy Decomp was XOM_US at 0.208%.
-Trade Advantage PERFORMANCE
+
+**Trade Advantage** ```PE``` &#151; 
 Trade Advantage as defined by Alpha Return Levered less Alpha Return Unit.
 Trade Exposure TRADING
 The signed value of the value traded where sign indicates gross increasing trades (long buys, short sells) as positive and gross decreasing trades (long sells, buy covers) as negative.
