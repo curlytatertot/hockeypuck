@@ -785,13 +785,13 @@ Total traded quantity.
 **Trade Value** ```TRADING``` &#151; 
 Trade value (buys are negative).
 
-Trade Value (-) TRADING
+**Trade Value (-)** ```TRADING``` &#151;  TRADING
 Trade value (buys are positive).
-Example In this case -2.41% is the Trade Value value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Trade Value values seen in the period.The security with the largest Trade Value was AGN_US at 0.548%.
-Turnover TRADING
+
+**Turnover** ```TRADING``` &#151; 
 The average of total purchases and sales on a given day.Obsolete, use Turnover Absolute or Turnover Accounting instead.
-Example In this case 1440% is the total turnover value over the period from July 2009 to November 2015as a percentage.The Hi and Lo values represent the largest and smallest total turnover values seen in the period.The security with the largest total turnover was AAPL_US at 44.5%.
-Turnover (absolute) TRADING
+
+**Turnover (absolute)** ```TRADING``` &#151; 
 The absolute value of trading on a given day. Either as a dollar amount, fraction of NAV, or as a fraction of the total amount invested (subject to filters).
 Example In this case 2870% is the total turnover-absolute value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total turnover-absolute values seen in the period.The security with the largest total turnover-absolute was AAPL_US at 89%.
 Upside Capture PERFORMANCE
