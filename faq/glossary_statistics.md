@@ -233,18 +233,18 @@ The average number of days since the positions in the portfolio were last traded
 Debt to equity of underlying instrument.
 
 **Debt to Equity (when held)** ```MARKETPLACE``` &#151; 
-Debt to equity measures a company's financial leverage. It is the ratio of total liabilities to total assets.
+Debt to equity measures a company's financial leverage. It is the ratio of total liabilities to total assets.<BR>
 **Details:** The average debt-to-equity value for a portfolio or sub-portfolio is computed as the average of daily debt-to-equity values for the selected time period, where the daily debt-to-equity value is given by the sum of individual instrument debt-to-equity values weighted by their position sizes in the portfolio for that day.
 
-Decision Regret Compare PERFORMANCE
+**Decision Regret Compare** ```PERFORMANCE``` &#151; 
 Difference of actual return and return of position using value prior to last value.
-Example In this case 0.0% is the total Decision Regret Compare value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Decision Regret Compare values seen in the period.The security with the largest total Decision Regret Compare was A_US at 0.0%.
-Decision Regret Events PERFORMANCE
+
+**Decision Regret Events** ```PERFORMANCE``` &#151; 
 Decision points used in decision regret return.
-Example In this case 0.0 is the total Decision Regret Events value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest total Decision Regret Events values seen in the period.The security with the largest total Decision Regret Events was A_US at 0.0.
-Decision Regret Return PERFORMANCE
+
+**Decision Regret Return** ```PERFORMANCE``` &#151; 
 Return of position using value prior to last value.
-Example In this case 0.0% is the total Decision Regret Return value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Decision Regret Return values seen in the period.The security with the largest total Decision Regret Return was A_US at 0.0%.
+
 Delta adjusted gross exposure EXPOSURE
 The sum of the absolute values of the delta adjusted exposures for the positions in the portfolio.
 Details For a stock or ETF position, the delta adjusted exposure is the market value of the position, and the underlying security is the stock or ETF itself. For an option position the delta adjusted exposure is the product of the option's delta and the notional exposure of the option to its underlying security (stock, ETF, or index).
