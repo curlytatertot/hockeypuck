@@ -770,7 +770,7 @@ Decomposition of P&L into baseline, strategic, tactical, and execution component
 **Strategy Decomp (tactical, excess)** ```TRADING``` &#151; 
 Decomposition of P&L into baseline, strategic, tactical, and execution components. The excess benchmark component is the return of a portfolio having weight equal to the start of day weight less the rolling average weight times the excess return. The excess return is the underlying instrument return minus the index return.
 
-**Trade Advantage** ```PE``` &#151; 
+**Trade Advantage** ```PERFORMANCE``` &#151; 
 Trade Advantage as defined by Alpha Return Levered less Alpha Return Unit.
 Trade Exposure TRADING
 The signed value of the value traded where sign indicates gross increasing trades (long buys, short sells) as positive and gross decreasing trades (long sells, buy covers) as negative.
