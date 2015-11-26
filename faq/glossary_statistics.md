@@ -772,10 +772,11 @@ Decomposition of P&L into baseline, strategic, tactical, and execution component
 
 **Trade Advantage** ```PERFORMANCE``` &#151; 
 Trade Advantage as defined by Alpha Return Levered less Alpha Return Unit.
-Trade Exposure TRADING
+
+**Trade Exposure** ```TRADING``` &#151; 
 The signed value of the value traded where sign indicates gross increasing trades (long buys, short sells) as positive and gross decreasing trades (long sells, buy covers) as negative.
-Example In this case -3.03% is the trade-exposure value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest trade-exposure values seen in the period.The security with the largest trade-exposure was AGN_US at 0.548%.
-Trade Price TRADING
+
+**Trade Price** ```TRADING``` &#151; 
 Average trade price.
 Example In this case 55.6 is the average Trade Price value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Trade Price values seen in the period.The security with the largest average Trade Price was PCLN_US at 759.
 Trade Quantity TRADING
