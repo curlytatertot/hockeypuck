@@ -589,12 +589,12 @@ A measure of profitability per dollar of sales.<BR>
 **Realized Beta Weekly** ```RISK``` &#151; 
 Realized beta over the period using weekly returns.
 
-Realized Component Volatility RISK
+**Realized Component Volatility** ```RISK``` &#151; 
 Component volatility on realized returns. Contribution to realized volatility.
-Example In this case 20.4% is the Realized Component Volatility value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Realized Component Volatility values seen in the period.The security with the largest Realized Component Volatility was AAPL_US at 0.943%.
-Realized Leaveout Volatility RISK
+
+**Realized Leaveout Volatility** ```RISK``` &#151; 
 Realized volatility when leaving out each position.
-Example In this case 20.4% is the Realized Leaveout Volatility value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Realized Leaveout Volatility values seen in the period.The security with the largest Realized Leaveout Volatility was AAPL_US at 0.923%.
+
 Realized beta RISK
 A historical measure of sensitivity of the portfolio or sub-portfolio to the SPY_US index.
 Details For a portfolio or sub-portfolio, the realized beta is the first-order sensitivity (or regression slope) of the underlying portfolio daily returns regressed against the daily index returns.
