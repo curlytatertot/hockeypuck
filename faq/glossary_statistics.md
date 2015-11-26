@@ -595,28 +595,28 @@ Component volatility on realized returns. Contribution to realized volatility.
 **Realized Leaveout Volatility** ```RISK``` &#151; 
 Realized volatility when leaving out each position.
 
-Realized beta RISK
-A historical measure of sensitivity of the portfolio or sub-portfolio to the SPY_US index.
-Details For a portfolio or sub-portfolio, the realized beta is the first-order sensitivity (or regression slope) of the underlying portfolio daily returns regressed against the daily index returns.
-Example In this case 1 is the realized-beta value at the end of November 2015.The Hi and Lo values represent the largest and smallest realized-beta values seen in the period.The security with the largest realized-beta was AAPL_US at 0.0466.
-Realized beta (rolling, long window) RISK
+**Realized beta** ```RISK``` &#151; 
+A historical measure of sensitivity of the portfolio or sub-portfolio to the SPY_US index.<BR>
+**Details:** For a portfolio or sub-portfolio, the realized beta is the first-order sensitivity (or regression slope) of the underlying portfolio daily returns regressed against the daily index returns.
+
+**Realized beta (rolling, long window)** ```RISK``` &#151; 
 Realized beta over a rolling long window.
-Example In this case 0.998 is the average Realized beta value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Realized beta values seen in the period.The security with the largest average Realized beta was AAPL_US at 0.028.
-Realized beta (rolling, short window) RISK
+
+**Realized beta (rolling, short window)** ```RISK``` &#151; 
 Realized beta over a rolling short window.
-Example In this case 0.998 is the average Realized beta value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Realized beta values seen in the period.The security with the largest average Realized beta was AAPL_US at 0.0304.
-Realized beta (rolling, very short window) RISK
+
+**Realized beta (rolling, very short window)** ```RISK``` &#151; 
 Realized beta over a rolling very short window.
-Example In this case 0.998 is the average Realized beta value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Realized beta values seen in the period.The security with the largest average Realized beta was AAPL_US at 0.0304.
-Realized correlation RISK
+
+**Realized correlation** ```RISK``` &#151; 
 The ex-post correlation between the portfolio and the SPY_US.
-Example In this case 1 is the realized-correlation value at the end of November 2015.The Hi and Lo values represent the largest and smallest realized-correlation values seen in the period.The security with the largest realized-correlation was HON_US at 0.844.
-Realized correlation (rolling, long window) RISK
+
+**Realized correlation (rolling, long window)** ```RISK``` &#151; 
 Realized correlation over a rolling long window.
-Example In this case 1 is the average Realized correlation value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Realized correlation values seen in the period.The security with the largest average Realized correlation was HON_US at 0.834.
-Realized correlation (rolling, short window) RISK
+
+**Realized correlation (rolling, short window)** ```RISK``` &#151; 
 Realized correlation over a rolling short window.
-Example In this case 1 is the average Realized correlation value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Realized correlation values seen in the period.The security with the largest average Realized correlation was HON_US at 0.818.
+
 Realized correlation (rolling, very short window) RISK
 Realized correlation over a rolling very short window.
 Example In this case 1 is the average Realized correlation value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Realized correlation values seen in the period.The security with the largest average Realized correlation was HON_US at 0.803.
