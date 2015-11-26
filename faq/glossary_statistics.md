@@ -323,50 +323,49 @@ Forward price to earnings ratio of underlying instrument (when held).
 **Fraction Float** ```MARKETPLACE``` &#151; 
 Public float as fraction of market cap.
 
-Fraction Float (when held) MARKETPLACE
+**Fraction Float (when held)** ```MARKETPLACE``` &#151; 
 Public float as fraction of market cap (when held).
-Example In this case 0.0 is the average Fraction Float value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Fraction Float values seen in the period.The security with the largest average Fraction Float was A_US at 0.0.
-Fx Decomp (base instrument ret) TRADING
+
+**Fx Decomp (base instrument ret)** ```TRADING``` &#151; 
 Decomposition of P&L into local, currency, and total components. The baseret is the return of the underlying instrument in the base portfolio currency (local return plus the fx return).
-Example In this case 0.0% is the total Fx Decomp value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Fx Decomp values seen in the period.The security with the largest total Fx Decomp was A_US at 0.0%.
-Fx Decomp (currency ret) TRADING
+
+**Fx Decomp (currency ret)** ```TRADING``` &#151; 
 Decomposition of P&L into local, currency, and total components. The currency component is the return attributable to the currency move of the underlying instrument.
-Example In this case 0.0% is the total Fx Decomp value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Fx Decomp values seen in the period.The security with the largest total Fx Decomp was A_US at 0.0%.
-Fx Decomp (local ret) TRADING
+
+**Fx Decomp (local ret)** ```TRADING``` &#151; 
 Decomposition of P&L into local, currency, and total components. The local component is the return attributable to the currency move of the underlying instrument.
-Example In this case 153% is the total Fx Decomp value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Fx Decomp values seen in the period.The security with the largest total Fx Decomp was AAPL_US at 8.12%.
-Fx Decomp (total ret) TRADING
+
+**Fx Decomp (total ret)** ```TRADING``` &#151; 
 Decomposition of P&L into local, currency, and total components. The residual component is the difference between actual P&L and the total component.
-Example In this case 153% is the total Fx Decomp value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Fx Decomp values seen in the period.The security with the largest total Fx Decomp was AAPL_US at 8.12%.
-Gross exposure EXPOSURE
+
+**Gross exposure** ```EXPOSURE``` &#151; 
 The sum of the absolute value of exposures for each position in the portfolio.
-Example In this case 99.4% is the average gross-exposure value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average gross-exposure values seen in the period.The security with the largest average gross-exposure was AAPL_US at 3.14%.
-Gross exposure constraint RISK
-Imputed gross exposure constraint.
-Example In this case 110% is the Gross exposure constraint value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Gross exposure constraint values seen in the period.The security with the largest Gross exposure constraint was AAPL_US at 5%.
-Index Price MARKETPLACE
+
+**Gross exposure constraint** ```RISK``` &#151; Imputed gross exposure constraint.
+
+**Index Price** ```MARKETPLACE``` &#151; 
 Index price.
-Example In this case 209 is the Index Price value at the end of November 2015 .The Hi and Lo values represent the largest and smallest Index Price values seen in the period.The security with the largest Index Price was A_US at 209.
-Index Return MARKETPLACE
+
+**Index Return** ```MARKETPLACE``` &#151; 
 Index return.
-Example In this case 158 is the total Index Return value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest total Index Return values seen in the period.The security with the largest total Index Return was A_US at 158.
-Index momentum PERFORMANCE
-Momentum of the SPY_US index.
-Details The 15-period moving average of index returns quantized into 4 levels.
-Example In this case 1% is the index-momentum value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest index-momentum values seen in the period.The security with the largest index-momentum was A_US at 1%.
-Index volatility (rolling, very short window) MARKETPLACE
+
+**Index momentum** ```PERFORMANCE``` &#151; 
+Momentum of the SPY_US index.<BR>
+**Details:** The 15-period moving average of index returns quantized into 4 levels.
+
+**Index volatility (rolling, very short window)** ```MARKETPLACE``` &#151; 
 Index volatility over a rolling very short window.
-Example In this case 14.1% is the average Index volatility value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average Index volatility values seen in the period.The security with the largest average Index volatility was A_US at 14.1%.
-Instrument Beta Adjusted MARKETPLACE
+
+**Instrument Beta Adjusted** ```MARKETPLACE``` &#151; 
 Underlying instrument beta. Averaged with 1.0.
-Example In this case 1.01 is the average Instrument Beta Adjusted value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Instrument Beta Adjusted values seen in the period.The security with the largest average Instrument Beta Adjusted was MTW_US at 1.93.
-Instrument Beta Weekly MARKETPLACE
+
+**Instrument Beta Weekly** ```MARKETPLACE``` &#151; 
 Underlying instrument beta on weekly returns.
-Example In this case 1.01 is the average Instrument Beta Weekly value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Instrument Beta Weekly values seen in the period.The security with the largest average Instrument Beta Weekly was MTW_US at 2.7.
-Instrument Drawdown MARKETPLACE
+
+**Instrument Drawdown** ```MARKETPLACE``` &#151; 
 Instrument drawdown, peak to trough drop over full period.
-Example In this case 4.22 is the Instrument Drawdown value at the end of November 2015.The Hi and Lo values represent the largest and smallest Instrument Drawdown values seen in the period.The security with the largest Instrument Drawdown was ANR_US at 437.
-Instrument Drawdown (when held) MARKETPLACE
+
+**Instrument Drawdown (when held)** ```MARKETPLACE``` &#151; 
 Instrument drawdown, peak to trough drop during time of ownership.
 Example In this case 2.1 is the Instrument Drawdown value at the end of November 2015.The Hi and Lo values represent the largest and smallest Instrument Drawdown values seen in the period.The security with the largest Instrument Drawdown was ANR_US at 170.
 Instrument Price MARKETPLACE
