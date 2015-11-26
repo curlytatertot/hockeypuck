@@ -617,35 +617,35 @@ Realized correlation over a rolling long window.
 **Realized correlation (rolling, short window)** ```RISK``` &#151; 
 Realized correlation over a rolling short window.
 
-Realized correlation (rolling, very short window) RISK
+**Realized correlation (rolling, very short window)** ```RISK``` &#151; 
 Realized correlation over a rolling very short window.
-Example In this case 1 is the average Realized correlation value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Realized correlation values seen in the period.The security with the largest average Realized correlation was HON_US at 0.803.
-Realized downside beta RISK
-A historical measure of the sensitivity of the portfolio or sub-portfolio to the SPY_US index on its down days.
-Details For a portfolio or sub-portfolio, the realized downside beta is the first-order sensitivity (or regression slope) of the underlying portfolio daily returns regressed against the daily index returns for days on which the daily index return is negative.
-Example In this case 0.999 is the average realized-downside-beta value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest average realized-downside-beta values seen in the period.The security with the largest average realized-downside-beta was XOM_US at 0.0298.
-Realized downside volatility RISK
+
+**Realized downside beta** ```RISK``` &#151; 
+A historical measure of the sensitivity of the portfolio or sub-portfolio to the SPY_US index on its down days.<BR>
+**Details:** For a portfolio or sub-portfolio, the realized downside beta is the first-order sensitivity (or regression slope) of the underlying portfolio daily returns regressed against the daily index returns for days on which the daily index return is negative.
+
+**Realized downside volatility** ```RISK``` &#151; 
 Annualized realized volatility based only on down moves.
-Example In this case 15.1% is the Realized downside volatility value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Realized downside volatility values seen in the period.The security with the largest Realized downside volatility was AAPL_US at 0.906%.
-Realized factor risk RISK
+
+**Realized factor risk** ```RISK``` &#151; 
 This is the realized or ex-post volatility of the exposure attributable to the SPY_US.
-Example In this case 5.12% is the realized-factor-risk value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest realized-factor-risk values seen in the period.The security with the largest realized-factor-risk was CIT_US at 5.12%.
-Realized upside beta RISK
-A historical measure of the sensitivity of the portfolio or sub-portfolio to the SPY_US index on its up days.
-Details For a portfolio or sub-portfolio, the realized upside beta is the first-order sensitivity (or regression slope) of the underlying portfolio daily returns regressed against the daily index returns for days on which the daily index return is positive.
-Example In this case 0.997 is the average realized-upside-beta value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest average realized-upside-beta values seen in the period.The security with the largest average realized-upside-beta was XOM_US at 0.0312.
-Realized upside volatility RISK
+
+**Realized upside beta** ```RISK``` &#151; 
+A historical measure of the sensitivity of the portfolio or sub-portfolio to the SPY_US index on its up days.<BR>
+**Details:** For a portfolio or sub-portfolio, the realized upside beta is the first-order sensitivity (or regression slope) of the underlying portfolio daily returns regressed against the daily index returns for days on which the daily index return is positive.
+
+**Realized upside volatility** ```RISK``` &#151; 
 Annualized realized volatility based only on up moves.
-Example In this case 13.5% is the Realized upside volatility value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Realized upside volatility values seen in the period.The security with the largest Realized upside volatility was AAPL_US at 0.803%.
-Realized volatility RISK
+
+**Realized volatility** ```RISK``` &#151; 
 A historical measure of risk representing the actual variation in the size of returns, computed daily and scaled to an annualized statistic.
-Example In this case 20.4% is the realized-volatility value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest realized-volatility values seen in the period.The security with the largest realized-volatility was AAPL_US at 1.29%.
-Realized volatility (rolling, long window) RISK
+
+**Realized volatility (rolling, long window)** ```RISK``` &#151; 
 Realized volatility over a rolling long window.
-Example In this case 15.5% is the average Realized volatility value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average Realized volatility values seen in the period.The security with the largest average Realized volatility was SPY Residual at 1.21%.
-Realized volatility (rolling, short window) RISK
+
+**Realized volatility (rolling, short window)** ```RISK``` &#151; 
 Realized volatility over a rolling short window.
-Example In this case 15% is the average Realized volatility value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average Realized volatility values seen in the period.The security with the largest average Realized volatility was SPY Residual at 1.08%.
+
 Return on an invested basis using trades PERFORMANCE
 Portfolio P&L represented on a invested (ROIC) basis using trades.
 Example In this case 156 is the total Return on an invested basis using trades value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest total Return on an invested basis using trades values seen in the period.The security with the largest total Return on an invested basis using trades was LTD_US at 913.
