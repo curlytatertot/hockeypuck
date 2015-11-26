@@ -404,38 +404,38 @@ Label for winners (non-negative p&l) and losers (negative p&l).
 The number of days to liquidate the portfolio.<BR>
 **Details:** This calculation is made under the assumption that one can liquidate 10% of the 20-day (trailing) median daily trading volume for an instrument each day.
 
-Liquidity (waterfall) EXPOSURE
+**Liquidity (waterfall)** ```EXPOSURE``` &#151; 
 Days to liquidate fixed fraction of the portfolio.
-Example In this case 1 is the Liquidity value at the end of November 2015 .The Hi and Lo values represent the largest and smallest Liquidity values seen in the period.The security with the largest Liquidity was A_US at 0.0.
-Long Term Debt to Equity (when held) MARKETPLACE
-Long-term debt to equity measures a company's financial leverage.
-Details It is the ratio of total long-term liabilities to total assets. The average long-term debt-to-equity is the average of daily debt-to-equity values for the selected time period, where the daily debt-to-equity for a given day is given by the sum of individual security long-term debt-to-equity values weighted by their position sizes in the portfolio for that day.
-Example In this case 0.0 is the average longterm-debt-to-equity value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest average longterm-debt-to-equity values seen in the period.The security with the largest average longterm-debt-to-equity was A_US at 0.0.
-Long term debt to equity MARKETPLACE
+
+**Long Term Debt to Equity (when held)** ```MARKETPLACE``` &#151; 
+Long-term debt to equity measures a company's financial leverage.<BR>
+**Details:** It is the ratio of total long-term liabilities to total assets. The average long-term debt-to-equity is the average of daily debt-to-equity values for the selected time period, where the daily debt-to-equity for a given day is given by the sum of individual security long-term debt-to-equity values weighted by their position sizes in the portfolio for that day.
+
+**Long term debt to equity** ```MARKETPLACE``` &#151; 
 Long term debt to equity of underlying instrument.
-Example In this case 0.0 is the average Long term debt to equity value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Long term debt to equity values seen in the period.The security with the largest average Long term debt to equity was A_US at 0.0.
-Market Cap MARKETPLACE
+
+**Market Cap** ```MARKETPLACE``` &#151; 
 Market capitalization of underlying instrument.
-Example In this case 0.0 is the average Market Cap value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Market Cap values seen in the period.The security with the largest average Market Cap was A_US at 0.0.
-Market Cap (when held) MARKETPLACE
-The total value of a company computed as the product of the number of outstanding shares times the price per share, expressed in dollars.
-Details The average market cap for a portfolio or sub-portfolio is computed as the average of daily market cap values for the selected time period, where the daily market cap is given by the sum of individual instrument market caps weighted by their position sizes in the portfolio for that day.
-Example In this case $0.00 is the average market-cap value over the period from July 2009 to November 2015 in dollars.The Hi and Lo values represent the largest and smallest average market-cap values seen in the period.The security with the largest average market-cap was A_US at $0.00.
-Market Cap Label MARKETPLACE
+
+**Market Cap (when held)** ```MARKETPLACE``` &#151; 
+The total value of a company computed as the product of the number of outstanding shares times the price per share, expressed in dollars.<BR>
+**Details:** The average market cap for a portfolio or sub-portfolio is computed as the average of daily market cap values for the selected time period, where the daily market cap is given by the sum of individual instrument market caps weighted by their position sizes in the portfolio for that day.
+
+**Market Cap Label** ```MARKETPLACE``` &#151; 
 Market Cap Label
-Example In this case 1% is the Market Cap Label value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Market Cap Label values seen in the period.The security with the largest Market Cap Label was A_US at 1%.
-Max Drawdown PERFORMANCE
+
+**Max Drawdown** ```MARKETPLACE``` &#151; 
 The maximum negative return from peak to trough during the selected period.
-Example In this case 16.2% is the Max Drawdown value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Max Drawdown values seen in the period.The security with the largest Max Drawdown was AAPL_US at 1.86%.
-Max Gain PERFORMANCE
+
+**Max Gain** ```PERFORMANCE``` &#151; 
 Max gain
-Example In this case 160% is the maximum Max Gain value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest maximum Max Gain values seen in the period.The security with the largest maximum Max Gain was AAPL_US at 9.15%.
-Max Loss PERFORMANCE
+
+**Max Loss** ```PERFORMANCE``` &#151; 
 Max loss
-Example In this case -4.73% is the minimum Max Loss value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest minimum Max Loss values seen in the period.The security with the largest minimum Max Loss was ACT_US at 0.0%.
-Net exposure EXPOSURE
+
+**Net exposure** ```EXPOSURE``` &#151; 
 The sum of exposures for each position in the portfolio.
-Example In this case 99.4% is the average net-exposure value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average net-exposure values seen in the period.The security with the largest average net-exposure was AAPL_US at 3.14%.
+
 Net exposure constraint RISK
 Imputed net exposure constraint.
 Example In this case 110% is the Net exposure constraint value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Net exposure constraint values seen in the period.The security with the largest Net exposure constraint was AAPL_US at 5%.
