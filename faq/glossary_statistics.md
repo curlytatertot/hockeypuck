@@ -184,58 +184,58 @@ Hypothetical return of portfolio if prices return to levels at average of period
 
 **Beta** ```RISK``` &#151; 
 A forward looking measure of sensitivity of the portfolio (or sub-portfolio) to the SPY_US index.<BR>
-_Details:_ The beta of an instrument is the first-order sensitivity of its daily returns to the corresponding daily index returns. It is calculated as the slope of the regression line, regressing the instrument's daily returns against the daily index returns for the previous 120 trading days. For a portfolio or sub-portfolio, the beta for a gven day is the sum of each position's instrument beta multiplied by that position's weight in the portfolio or sub-portfolio for that day.
+**Details:** The beta of an instrument is the first-order sensitivity of its daily returns to the corresponding daily index returns. It is calculated as the slope of the regression line, regressing the instrument's daily returns against the daily index returns for the previous 120 trading days. For a portfolio or sub-portfolio, the beta for a gven day is the sum of each position's instrument beta multiplied by that position's weight in the portfolio or sub-portfolio for that day.
 
 **Beta Adjusted** ```RISK``` &#151; 
 Beta coefficient. Average of raw beta and 1.0.
 
-Beta adjusted gross exposure EXPOSURE
-The sum of the absolute values of the beta exposures for the positions in the portfolio.
-Details The beta exposure for a position is the product of the position's delta adjusted exposure and the beta of the underlying security to the SPY_US. For a stock or ETF position the delta adjusted exposure is the market value of the position, and the underlying security is the stock or ETF itself. For an option position the delta exposure is the product of the option's delta and the notional exposure of the option to its underlying security (stock, ETF, or index).
-Example In this case 98.8% is the average beta-gross-exposure value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average beta-gross-exposure values seen in the period.The security with the largest average beta-gross-exposure was AAPL_US at 3.01%.
-Beta adjusted net exposure EXPOSURE
-The sum of the beta exposures for the positions in a portfolio.
-Details The beta exposure for a position is the product of the position's delta adjusted exposure and the beta of the underlying security to the SPY_US. For a stock or ETF position the delta adjusted exposure is the market value of the position, and the underlying security is the stock or ETF itself. For an option position the delta exposure is the product of the option's delta and the notional exposure of the option to its underlying security (stock, ETF, or index).
-Example In this case 98.8% is the average beta-net-exposure value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average beta-net-exposure values seen in the period.The security with the largest average beta-net-exposure was AAPL_US at 3.01%.
-Beta return (Jensen's) PERFORMANCE
+**Beta adjusted gross exposure** ```EXPOSURE``` &#151; 
+The sum of the absolute values of the beta exposures for the positions in the portfolio.<BR>
+**Details:** The beta exposure for a position is the product of the position's delta adjusted exposure and the beta of the underlying security to the SPY_US. For a stock or ETF position the delta adjusted exposure is the market value of the position, and the underlying security is the stock or ETF itself. For an option position the delta exposure is the product of the option's delta and the notional exposure of the option to its underlying security (stock, ETF, or index).
+
+**Beta adjusted net exposure** ```EXPOSURE``` &#151; 
+The sum of the beta exposures for the positions in a portfolio.<BR>
+**Details:** The beta exposure for a position is the product of the position's delta adjusted exposure and the beta of the underlying security to the SPY_US. For a stock or ETF position the delta adjusted exposure is the market value of the position, and the underlying security is the stock or ETF itself. For an option position the delta exposure is the product of the option's delta and the notional exposure of the option to its underlying security (stock, ETF, or index).
+
+**Beta return (Jensen's)** ```PERFORMANCE``` &#151; 
 The amount of portfolio or sub-portfolio performance attributable to index exposure. It is computed as the portfolio beta times the SPY_US index return.
-Example In this case 155% is the total beta-return-jensens value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total beta-return-jensens values seen in the period.The security with the largest total beta-return-jensens was XOM_US at 4.25%.
-Beta return (direct) PERFORMANCE
+
+**Beta return (direct)** ```PERFORMANCE``` &#151; 
 Index return times avg net exposure. Compounded then weighted.
-Example In this case 157% is the total Beta return value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Beta return values seen in the period.The security with the largest total Beta return was AAPL_US at 4.97%.
-Beta return (levered) PERFORMANCE
+
+**Beta return (levered)** ```PERFORMANCE``` &#151; 
 The amount of portfolio or sub-portfolio performance attributable to index exposure. It is computed as the portfolio beta times the SPY_US index return scaled by the average portfolio net exposure for the selected period.
-Example In this case 157% is the total beta-return-levered value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total beta-return-levered values seen in the period.The security with the largest total beta-return-levered was AAPL_US at 4.95%.
-Component (ex-ante) volatility (EWMA) RISK
+
+**Component (ex-ante) volatility (EWMA)** ```RISK``` &#151; 
 Component (ex-ante) volatility, sums to portfolio ex-ante volatility. Uses volatility estimate based on exponential weighted average.
-Example In this case 14.2% is the average Component value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average Component values seen in the period.The security with the largest average Component was AAPL_US at 0.43%.
-Component value at risk RISK
+
+**Component value at risk** ```RISK``` &#151; 
 A forward looking measure of risk representing a hypothetical maximum daily loss for the portfolio or sub-portfolio.
-Details The probability of a loss at least this large is 5% based on a Gaussian model. Position values for component VaR sum to the total VaR for the overall portfolio.
-Example In this case 7.13% is the average component-value-at-risk over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average component-value-at-risk values seen in the period.The security with the largest average component-value-at-risk was AAPL_US at 0.209%.
-Component value at risk (EWMA) RISK
+**Details:** The probability of a loss at least this large is 5% based on a Gaussian model. Position values for component VaR sum to the total VaR for the overall portfolio.
+
+**Component value at risk (EWMA)** ```RISK``` &#151; 
 Component value at risk, sums to portfolio VaR. Uses volatility estimate based on exponential weighted average.
-Example In this case 6.72% is the average Component value at risk value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average Component value at risk values seen in the period.The security with the largest average Component value at risk was AAPL_US at 0.204%.
-Days Held EXPOSURE
+
+**Days Held** ```EXPOSURE``` &#151; 
 The average number of days held for positions in the portfolio.
-Example In this case 636 is the average number of days that positions were held between July 2009 and November 2015.The Hi and Lo values represent the largest and smallest days-held values seen in the period.The security with the largest average value of days held was ABT_US at 1670 days.
-Days held (eventual, calendar) EXPOSURE
+
+**Days held (eventual, calendar)** ```EXPOSURE``` &#151; 
 Number of calendar days this position was eventually held (constant over life of the position).
-Example In this case 890 is the Days held value at the end of November 2015 .The Hi and Lo values represent the largest and smallest Days held values seen in the period.The security with the largest Days held was ABT_US at 2340.
-Days held (eventual, trade) EXPOSURE
+
+**Days held (eventual, trade)** ```EXPOSURE``` &#151; 
 Number of trading days this position was eventually held (constant over life of the position).
-Example In this case 636 is the Days held value at the end of November 2015 .The Hi and Lo values represent the largest and smallest Days held values seen in the period.The security with the largest Days held was ABT_US at 1670.
-Days since last trade EXPOSURE
+
+**Days since last trade** ```EXPOSURE``` &#151; 
 The average number of days since the positions in the portfolio were last traded.
-Details For an individual security this is the running total of days since the security was last traded from the beginning of the period to the end of the period. The average days-since-last-traded value is computed as the average of daily days-since-last-traded values for the selected time period, where the daily days-since-last-traded value for a particular day is given by the sum of individual instrument days-since-last-traded values weighted by their position sizes in the portfolio for that day.
-Example In this case 1.64E-05 is the average days-since-last-trade over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest average days-since-last-trade values seen in the period.The security with the largest average days-since-last-trade was CIT_US at 823.
-Debt to Equity MARKETPLACE
+**Details:** For an individual security this is the running total of days since the security was last traded from the beginning of the period to the end of the period. The average days-since-last-traded value is computed as the average of daily days-since-last-traded values for the selected time period, where the daily days-since-last-traded value for a particular day is given by the sum of individual instrument days-since-last-traded values weighted by their position sizes in the portfolio for that day.
+
+**Debt to Equity** ```MARKETPLACE``` &#151; 
 Debt to equity of underlying instrument.
-Example In this case 0.0 is the average Debt to Equity value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Debt to Equity values seen in the period.The security with the largest average Debt to Equity was A_US at 0.0.
-Debt to Equity (when held) MARKETPLACE
+
+**Debt to Equity (when held)** ```MARKETPLACE``` &#151; 
 Debt to equity measures a company's financial leverage. It is the ratio of total liabilities to total assets.
-Details The average debt-to-equity value for a portfolio or sub-portfolio is computed as the average of daily debt-to-equity values for the selected time period, where the daily debt-to-equity value is given by the sum of individual instrument debt-to-equity values weighted by their position sizes in the portfolio for that day.
-Example In this case 0.0 is the average debt-to-equity value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest average debt-to-equity values seen in the period.The security with the largest average debt-to-equity was A_US at 0.0.
+**Details:** The average debt-to-equity value for a portfolio or sub-portfolio is computed as the average of daily debt-to-equity values for the selected time period, where the daily debt-to-equity value is given by the sum of individual instrument debt-to-equity values weighted by their position sizes in the portfolio for that day.
+
 Decision Regret Compare PERFORMANCE
 Difference of actual return and return of position using value prior to last value.
 Example In this case 0.0% is the total Decision Regret Compare value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Decision Regret Compare values seen in the period.The security with the largest total Decision Regret Compare was A_US at 0.0%.
