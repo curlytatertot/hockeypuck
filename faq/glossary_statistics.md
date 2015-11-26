@@ -444,19 +444,19 @@ The number of days on which the portfolio or sub-portfolio had a negative return
 
 **Number of down days when index down** ```PERFORMANCE``` &#151; 
 The number of days on which the portfolio or sub-portfolio had a negative return from the start of the selected time period until the indicated day, computed on days when the SPY_US index is down.
-Example In this case 706 is the number-of-down-days-when-index-down value at the end of November 2015.The Hi and Lo values represent the largest and smallest number-of-down-days-when-index-down values seen in the period.The security with the largest number-of-down-days-when-index-down was AMP_US at 585.
-Number of down days when index up PERFORMANCE
+
+**Number of down days when index up** ```PERFORMANCE``` &#151; 
 The number of days on which the portfolio or sub-portfolio had a negative return from the start of the selected time period until the indicated day, computed on days when the SPY_US index is up.
-Example In this case 0.0 is the number-of-down-days-when-index-up value at the end of November 2015.The Hi and Lo values represent the largest and smallest number-of-down-days-when-index-up values seen in the period.The security with the largest number-of-down-days-when-index-up was NEM_US at 376.
-Number of down interval PERFORMANCE
-Number of down interval
-Example In this case 25% is the Number of down interval value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Number of down interval values seen in the period.The security with the largest Number of down interval was DO_US at 48%.
-Number of down interval when index down PERFORMANCE
+
+**Number of down interval** ```PERFORMANCE``` &#151; 
+Number of down interval.
+
+**Number of down interval when index down** ```PERFORMANCE``` &#151; 
 Number of down interval when index down
-Example In this case 25% is the Number of down interval when index down value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Number of down interval when index down values seen in the period.The security with the largest Number of down interval when index down was AMAT_US at 24%.
-Number of down interval when index up PERFORMANCE
+
+**Number of down interval when index up** ```PERFORMANCE``` &#151; 
 Number of down interval when index up
-Example In this case 0.0% is the Number of down interval when index up value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Number of down interval when index up values seen in the period.The security with the largest Number of down interval when index up was DO_US at 29%.
+
 Number of down rollup PERFORMANCE
 The number of positions in the portfolio or sub-portfolio with a negative return from the start of the selected time period until the indicated day.
 Example In this case 77 is the number-of-down-positions at the end of November 2015.The Hi and Lo values represent the largest and smallest number-of-down-positions values seen in the period.The security with the largest number-of-down-positions was AA_US_2 at 1.
