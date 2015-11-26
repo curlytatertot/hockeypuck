@@ -78,30 +78,30 @@ The average position return for positions in the portfolio or sub-portfolio with
 **Average of down rollup when index up** ```PERFORMANCE``` &#151; 
 The average position return for positions in the portfolio or sub-portfolio with a negative return from the start of the selected time period until the indicated day, computed on periods when the SPY_US index is up.
 
-Average of nonzero days PERFORMANCE
-Average of nonzero days
-Example In this case 0.0639% is the Average of nonzero days value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Average of nonzero days values seen in the period.The security with the largest Average of nonzero days was ABG_US at 0.00588%.
-Average of nonzero days when index down PERFORMANCE
-Average of nonzero days when index down
-Example In this case -0.731% is the Average of nonzero days when index down value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Average of nonzero days when index down values seen in the period.The security with the largest Average of nonzero days when index down was SUN_US at 0.000343%.
-Average of nonzero days when index up PERFORMANCE
-Average of nonzero days when index up
-Example In this case 0.687% is the Average of nonzero days when index up value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Average of nonzero days when index up values seen in the period.The security with the largest Average of nonzero days when index up was AAPL_US at 0.0198%.
-Average of nonzero interval PERFORMANCE
-Average of nonzero interval
-Example In this case 1.33% is the Average of nonzero interval value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Average of nonzero interval values seen in the period.The security with the largest Average of nonzero interval was ABG_US at 0.0784%.
-Average of nonzero interval when index down PERFORMANCE
-Average of nonzero interval when index down
-Example In this case -2.91% is the Average of nonzero interval when index down value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Average of nonzero interval when index down values seen in the period.The security with the largest Average of nonzero interval when index down was FB_US at 0.0288%.
-Average of nonzero interval when index up PERFORMANCE
-Average of nonzero interval when index up
-Example In this case 3.37% is the Average of nonzero interval when index up value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Average of nonzero interval when index up values seen in the period.The security with the largest Average of nonzero interval when index up was AAPL_US at 0.136%.
-Average of nonzero rollup PERFORMANCE
-Average of nonzero positions
-Example In this case -0.256% is the value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was KMI_US at 0.342%.
-Average of nonzero rollup using alpha returns PERFORMANCE
-Average of nonzero positions using alpha returns
-Example In this case -0.000227% is the value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was XOM_US at 2.91%.
+**Average of nonzero days** ```PERFORMANCE``` &#151; 
+Average of nonzero days.
+
+**Average of nonzero days when index down** ```PERFORMANCE``` &#151; 
+Average of nonzero days when index down.
+
+**Average of nonzero days when index up** ```PERFORMANCE``` &#151; 
+Average of nonzero days when index up.
+
+**Average of nonzero interval** ```PERFORMANCE``` &#151; 
+Average of nonzero interval.
+
+**Average of nonzero interval when index down** ```PERFORMANCE``` &#151; 
+Average of nonzero interval when index down.
+
+**Average of nonzero interval when index up** ```PERFORMANCE``` &#151; 
+Average of nonzero interval when index up.
+
+**Average of nonzero rollup** ```PERFORMANCE``` &#151; 
+Average of nonzero positions.
+
+**Average of nonzero rollup using alpha returns** ```PERFORMANCE``` &#151; 
+Average of nonzero positions using alpha returns.
+
 Average of nonzero rollup when index down PERFORMANCE
 Average of nonzero positions when index down
 Example In this case 0.0% is the value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was A_US at 0.0%.
