@@ -511,7 +511,7 @@ Number of up positions using alpha returns.
 **Number of up rollup when index down** ```PERFORMANCE``` &#151; 
 The number of positions in the portfolio or sub-portfolio with a positive return from the start of the selected time period until the indicated day, computed on periods when the SPY_US index is down.
 
-**Number of up rollup when index up PERFORMANCE** ```PERFORMANCE``` &#151; 
+**Number of up rollup when index up** ```PERFORMANCE``` &#151; 
 The number of positions in the portfolio or sub-portfolio with a positive return from the start of the selected time period until the indicated day, computed on periods when the SPY_US index is up.
 
 **Operating Margin** ```MARKETPLACE``` &#151; 
