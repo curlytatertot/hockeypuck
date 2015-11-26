@@ -754,11 +754,11 @@ Decomposition of P&L into baseline, strategic, and tactical components. The stra
 
 **Strategy Decomp (strategic, benchmark)** ```TRADING``` &#151; 
 Decomposition of P&L into baseline, strategic, and tactical components. The strategic benchmark component is the return of a portfolio having weight equal to the rolling average weight less a single baseline weight when held times the benchmark return. The benchmark return is the index return.
-Example In this case -687% is the total Strategy Decomp value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Strategy Decomp values seen in the period.The security with the largest total Strategy Decomp was XOM_US at 3.04%.
-Strategy Decomp (strategic, excess) TRADING
+
+**Strategy Decomp (strategic, excess)** ```TRADING``` &#151; 
 Decomposition of P&L into baseline, strategic, and tactical components. The strategic excess component is the return of a portfolio having weight equal to the rolling average weight less a single baseline weight when held times the excess return. The excess return is the underlying instrument return minus the index return.
-Example In this case -59.9% is the total Strategy Decomp value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Strategy Decomp values seen in the period.The security with the largest total Strategy Decomp was JOYG_US at 4.2%.
-Strategy Decomp (tactical weight) TRADING
+
+**Strategy Decomp (tactical weight)** ```TRADING``` &#151; 
 The daily weight minus the rolling average weight used in the tactical term
 Example In this case -0.0156% is the Strategy Decomp value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Strategy Decomp values seen in the period.The security with the largest Strategy Decomp was AA_US_2 at 0.0%.
 Strategy Decomp (tactical) TRADING
