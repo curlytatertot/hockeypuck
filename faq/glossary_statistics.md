@@ -793,10 +793,10 @@ The average of total purchases and sales on a given day.Obsolete, use Turnover A
 
 **Turnover (absolute)** ```TRADING``` &#151; 
 The absolute value of trading on a given day. Either as a dollar amount, fraction of NAV, or as a fraction of the total amount invested (subject to filters).
-Example In this case 2870% is the total turnover-absolute value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total turnover-absolute values seen in the period.The security with the largest total turnover-absolute was AAPL_US at 89%.
-Upside Capture PERFORMANCE
+
+**Upside Capture** ```PERFORMANCE``` &#151; 
 Ratio of portfolio return to index return on index up periods.
-Example In this case 0.999 is the Upside Capture value at the end of November 2015 .The Hi and Lo values represent the largest and smallest Upside Capture values seen in the period.The security with the largest Upside Capture was AAPL_US at 0.0288.
+
 Value at risk RISK
 A forward looking measure of risk representing a hypothetical maximum daily loss for the portfolio at a 5% probability level based on a Gaussian model.
 Example In this case 7.13% is the average value-at-risk value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average value-at-risk values seen in the period.The security with the largest average value-at-risk was AAPL_US at 0.384%.
