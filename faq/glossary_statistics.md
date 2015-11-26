@@ -436,13 +436,13 @@ Max loss
 **Net exposure** ```EXPOSURE``` &#151; 
 The sum of exposures for each position in the portfolio.
 
-Net exposure constraint RISK
+**Net exposure constraint** ```RISK``` &#151; 
 Imputed net exposure constraint.
-Example In this case 110% is the Net exposure constraint value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Net exposure constraint values seen in the period.The security with the largest Net exposure constraint was AAPL_US at 5%.
-Number of down days PERFORMANCE
+
+**Number of down days** ```PERFORMANCE``` &#151; 
 The number of days on which the portfolio or sub-portfolio had a negative return from the start of the selected time period until the indicated day.
-Example In this case 706 is the number-of-down-days value at the end of November 2015.The Hi and Lo values represent the largest and smallest number-of-down-days values seen in the period.The security with the largest number-of-down-days was DO_US at 831.
-Number of down days when index down PERFORMANCE
+
+**Number of down days when index down** ```PERFORMANCE``` &#151; 
 The number of days on which the portfolio or sub-portfolio had a negative return from the start of the selected time period until the indicated day, computed on days when the SPY_US index is down.
 Example In this case 706 is the number-of-down-days-when-index-down value at the end of November 2015.The Hi and Lo values represent the largest and smallest number-of-down-days-when-index-down values seen in the period.The security with the largest number-of-down-days-when-index-down was AMP_US at 585.
 Number of down days when index up PERFORMANCE
