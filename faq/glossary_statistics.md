@@ -183,12 +183,12 @@ Hypothetical return of portfolio if prices return to levels at minimum of window
 Hypothetical return of portfolio if prices return to levels at average of period.
 
 **Beta** ```RISK``` &#151; 
-A forward looking measure of sensitivity of the portfolio (or sub-portfolio) to the SPY_US index.
-Details The beta of an instrument is the first-order sensitivity of its daily returns to the corresponding daily index returns. It is calculated as the slope of the regression line, regressing the instrument's daily returns against the daily index returns for the previous 120 trading days. For a portfolio or sub-portfolio, the beta for a gven day is the sum of each position's instrument beta multiplied by that position's weight in the portfolio or sub-portfolio for that day.
-Example In this case 0.988 is the average beta value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest average beta values seen in the period.The security with the largest average beta was AAPL_US at 0.0301.
-Beta Adjusted RISK
+A forward looking measure of sensitivity of the portfolio (or sub-portfolio) to the SPY_US index.<BR>
+_Details:_ The beta of an instrument is the first-order sensitivity of its daily returns to the corresponding daily index returns. It is calculated as the slope of the regression line, regressing the instrument's daily returns against the daily index returns for the previous 120 trading days. For a portfolio or sub-portfolio, the beta for a gven day is the sum of each position's instrument beta multiplied by that position's weight in the portfolio or sub-portfolio for that day.
+
+**Beta Adjusted** ```RISK``` &#151; 
 Beta coefficient. Average of raw beta and 1.0.
-Example In this case 0.99 is the average Beta Adjusted value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Beta Adjusted values seen in the period.The security with the largest average Beta Adjusted was AAPL_US at 0.0306.
+
 Beta adjusted gross exposure EXPOSURE
 The sum of the absolute values of the beta exposures for the positions in the portfolio.
 Details The beta exposure for a position is the product of the position's delta adjusted exposure and the beta of the underlying security to the SPY_US. For a stock or ETF position the delta adjusted exposure is the market value of the position, and the underlying security is the stock or ETF itself. For an option position the delta exposure is the product of the option's delta and the notional exposure of the option to its underlying security (stock, ETF, or index).
