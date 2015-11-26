@@ -739,13 +739,13 @@ Decomposition of P&L into baseline, strategic, tactical, and execution component
 
 **Strategy Decomp (execution, excess)** ```TRADING``` &#151; 
 Decomposition of P&L into baseline, strategic, tactical, and execution components. The excess execution component is the actual return of the portfolio less the return of a portfolio having weight equal to the actual weight times the excess return. The excess return is the underlying instrument return minus the index return.
-Example In this case 161% is the total Strategy Decomp value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Strategy Decomp values seen in the period.The security with the largest total Strategy Decomp was XOM_US at 4.79%.
-Strategy Decomp (moving avg ret) TRADING
+
+**Strategy Decomp (moving avg ret)** ```TRADING``` &#151; 
 The leading term of the strategic component, the rolling average weight return. The strategic component is the return of a portfolio having weight equal to the rolling average weight less a single baseline weight when held.
-Example In this case 154% is the total Strategy Decomp value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Strategy Decomp values seen in the period.The security with the largest total Strategy Decomp was AAPL_US at 8.54%.
-Strategy Decomp (moving avg weight) TRADING
+
+**Strategy Decomp (moving avg weight)** ```TRADING``` &#151; 
 The rolling average weight used in the strategic and tactical terms
-Example In this case 99.8% is the Strategy Decomp value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Strategy Decomp values seen in the period.The security with the largest Strategy Decomp was AAPL_US at 3.92%.
+
 Strategy Decomp (strategic weight) TRADING
 The rolling average weight minus the baseline used in the strategic term
 Example In this case -364% is the Strategy Decomp value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Strategy Decomp values seen in the period.The security with the largest Strategy Decomp was AAPL_US at 3%.
