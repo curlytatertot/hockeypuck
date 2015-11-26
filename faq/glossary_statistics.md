@@ -58,27 +58,26 @@ The average daily portfolio or sub-portfolio return for days on which the portfo
 
 **Average of down days when index up** ```PERFORMANCE``` &#151; The average daily portfolio or sub-portfolio return for days on which the portfolio had a negative return from the start of the selected time period until the indicated day, computed on days when the SPY_US index is up.
 
-Average of down interval PERFORMANCE
+**Average of down interval** ```PERFORMANCE``` &#151; 
 Average of down interval
-Example In this case -2.91% is the Average of down interval value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Average of down interval values seen in the period.The security with the largest Average of down interval was AGL_US at 0.0%.
-Average of down interval when index down PERFORMANCE
-Average of down interval when index down
-Example In this case -2.91% is the Average of down interval when index down value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Average of down interval when index down values seen in the period.The security with the largest Average of down interval when index down was AGL_US at 0.0%.
-Average of down interval when index up PERFORMANCE
-Average of down interval when index up
-Example In this case 0.0% is the Average of down interval when index up value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Average of down interval when index up values seen in the period.The security with the largest Average of down interval when index up was AA_US_2 at 0.0%.
-Average of down rollup PERFORMANCE
+
+**Average of down interval when index down** ```PERFORMANCE``` &#151; Average of down interval when index down.
+
+**Average of down interval when index up** ```PERFORMANCE``` &#151; 
+Average of down interval when index up.
+
+**Average of down rollup** ```PERFORMANCE``` &#151; 
 The average position return for positions in the portfolio or sub-portfolio with a negative return from the start of the selected time period until the indicated day.
-Example In this case -0.0467% is the average-of-down-positions value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average-of-down-positions values seen in the period.The security with the most extreme average-of-down-positions was KMI_US at -0.342%.
-Average of down rollup using alpha returns PERFORMANCE
+
+**Average of down rollup using alpha returns** ```PERFORMANCE``` &#151; 
 Average of down positions using alpha returns
-Example In this case -0.128% is the value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was A_US at 0.0%.
-Average of down rollup when index down PERFORMANCE
+
+**Average of down rollup when index down** ```PERFORMANCE``` &#151; 
 The average position return for positions in the portfolio or sub-portfolio with a negative return from the start of the selected time period until the indicated day, computed on periods when the SPY_US index is down.
-Example In this case 0.0% is the average-of-down-positions-when-index-down value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average-of-down-positions-when-index-down values seen in the period.The security with the most extreme average-of-down-positions-when-index-down was SPY Residual at 0.0%.
-Average of down rollup when index up PERFORMANCE
+
+**Average of down rollup when index up** ```PERFORMANCE``` &#151; 
 The average position return for positions in the portfolio or sub-portfolio with a negative return from the start of the selected time period until the indicated day, computed on periods when the SPY_US index is up.
-Example In this case -0.0467% is the average-of-down-positions-when-index-up value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average-of-down-positions-when-index-up values seen in the period.The security with the most extreme average-of-down-positions-when-index-up was KMI_US at -0.342%.
+
 Average of nonzero days PERFORMANCE
 Average of nonzero days
 Example In this case 0.0639% is the Average of nonzero days value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Average of nonzero days values seen in the period.The security with the largest Average of nonzero days was ABG_US at 0.00588%.
