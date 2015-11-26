@@ -156,34 +156,33 @@ Average weight of down positions.
 **Average weight of down rollup using alpha returns** ```PERFORMANCE``` &#151; 
 Average weight of down positions using alpha returns.
 
-Average weight of up rollup PERFORMANCE
-Average weight of up positions
-Example In this case 0.183% is the value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was AAPL_US at 3.92%.
-Average weight of up rollup using alpha returns PERFORMANCE
-Average weight of up positions using alpha returns
-Example In this case 0.000242% is the value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was AAPL_US at 0.00527%.
-Average weight over period. EXPOSURE
-Average weight (delta adjusted) per-position over the selected period
-Example In this case 99.4% is the Average weight over period. value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Average weight over period. values seen in the period.The security with the largest Average weight over period. was AAPL_US at 3.14%.
-Average weight when held. EXPOSURE
+**Average weight of up rollup** ```PERFORMANCE``` &#151; 
+Average weight of up positions.
+
+**Average weight of up rollup using alpha returns** ```PERFORMANCE``` &#151; 
+Average weight of up positions using alpha returns.
+
+**Average weight over period** ```EXPOSURE``` &#151; 
+Average weight (delta adjusted) per-position over the selected period.
+
+**Average weight when held** ```EXPOSURE``` &#151; 
 Average (delta adjusted) weight per-position when held.
-Example In this case 104% is the Average weight when held. value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Average weight when held. values seen in the period.The security with the largest Average weight when held. was AAPL_US at 3.15%.
-Base Risk to Avg Price RISK
+
+**Base Risk to Avg Price** ```RISK``` &#151; 
 Hypothetical return of portfolio if prices return to levels at average of window.
-Example In this case -1.33% is the Base Risk to Avg Price value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Base Risk to Avg Price values seen in the period.The security with the largest Base Risk to Avg Price was QCOM_US at 0.123%.
-Base Risk to Begin Price RISK
-Hypothetical return of portfolio if prices return to levels at start of window.
-Example In this case 2.65% is the Base Risk to Begin Price value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Base Risk to Begin Price values seen in the period.The security with the largest Base Risk to Begin Price was AAPL_US at 0.329%.
-Base Risk to Max Price RISK
+
+**Base Risk to Begin Price** ```RISK``` &#151; Hypothetical return of portfolio if prices return to levels at start of window.
+
+**Base Risk to Max Price** ```RISK``` &#151; 
 Hypothetical return of portfolio if prices return to levels at maximum of window.
-Example In this case 10.6% is the Base Risk to Max Price value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Base Risk to Max Price values seen in the period.The security with the largest Base Risk to Max Price was AAPL_US at 0.398%.
-Base Risk to Min Price RISK
+
+**Base Risk to Min Price** ```RISK``` &#151; 
 Hypothetical return of portfolio if prices return to levels at minimum of window.
-Example In this case -13.6% is the Base Risk to Min Price value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Base Risk to Min Price values seen in the period.The security with the largest Base Risk to Min Price was AA_US_2 at 0.0%.
-Base Risk to Period Avg Price RISK
+
+**Base Risk to Period Avg Price** ```RISK``` &#151; 
 Hypothetical return of portfolio if prices return to levels at average of period.
-Example In this case -28.2% is the Base Risk to Period Avg Price value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Base Risk to Period Avg Price values seen in the period.The security with the largest Base Risk to Period Avg Price was FCX_US at 0.268%.
-Beta RISK
+
+**Beta** ```RISK``` &#151; 
 A forward looking measure of sensitivity of the portfolio (or sub-portfolio) to the SPY_US index.
 Details The beta of an instrument is the first-order sensitivity of its daily returns to the corresponding daily index returns. It is calculated as the slope of the regression line, regressing the instrument's daily returns against the daily index returns for the previous 120 trading days. For a portfolio or sub-portfolio, the beta for a gven day is the sum of each position's instrument beta multiplied by that position's weight in the portfolio or sub-portfolio for that day.
 Example In this case 0.988 is the average beta value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest average beta values seen in the period.The security with the largest average beta was AAPL_US at 0.0301.
