@@ -245,31 +245,31 @@ Decision points used in decision regret return.
 **Decision Regret Return** ```PERFORMANCE``` &#151; 
 Return of position using value prior to last value.
 
-Delta adjusted gross exposure EXPOSURE
+**Delta adjusted gross exposure** ```EXPOSURE``` &#151; 
 The sum of the absolute values of the delta adjusted exposures for the positions in the portfolio.
-Details For a stock or ETF position, the delta adjusted exposure is the market value of the position, and the underlying security is the stock or ETF itself. For an option position the delta adjusted exposure is the product of the option's delta and the notional exposure of the option to its underlying security (stock, ETF, or index).
-Example In this case 99.4% is the average delta-adjusted-gross-exposure value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average delta-adjusted-gross-exposure values seen in the period.The security with the largest average delta-adjusted-gross-exposure was AAPL_US at 3.14%.
-Delta adjusted net exposure EXPOSURE
+**Details:** For a stock or ETF position, the delta adjusted exposure is the market value of the position, and the underlying security is the stock or ETF itself. For an option position the delta adjusted exposure is the product of the option's delta and the notional exposure of the option to its underlying security (stock, ETF, or index).
+
+**Delta adjusted net exposure** ```EXPOSURE``` &#151; 
 The sum of the delta adjusted exposures for the positions in the portfolio.
-Details For a stock or ETF position, the delta adjusted exposure is the market value of the position, and the underlying security is the stock or ETF itself. For an option position the delta adjusted exposure is the product of the option's delta and the notional exposure of the option to its underlying security (stock, ETF, or index).
-Example In this case 99.4% is the average delta-adjusted-net-exposure value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average delta-adjusted-net-exposure values seen in the period.The security with the largest average delta-adjusted-net-exposure was AAPL_US at 3.14%.
-Diversification RISK
+**Details:** For a stock or ETF position, the delta adjusted exposure is the market value of the position, and the underlying security is the stock or ETF itself. For an option position the delta adjusted exposure is the product of the option's delta and the notional exposure of the option to its underlying security (stock, ETF, or index).
+
+**Diversification** ```RISK``` &#151; 
 The ex-ante average of the correlation of each position to the overall portfolio.
-Details Values near 0.0 represent a diversified portfolio and values near 1.0 represent an undiversified portfolio.
-Example In this case 0.475 is the average diversification value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest average diversification values seen in the period.The security with the largest average diversification was BEN_US at 0.825.
-Dividend Yield MARKETPLACE
+**Details:** Values near 0.0 represent a diversified portfolio and values near 1.0 represent an undiversified portfolio.
+
+**Dividend Yield** ```MARKETPLACE``` &#151; 
 Dividend yield of underlying instrument.
-Example In this case 0.0 is the average Dividend Yield value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest average Dividend Yield values seen in the period.The security with the largest average Dividend Yield was A_US at 0.0.
-Dividend Yield (when held) MARKETPLACE
+
+**Dividend Yield (when held)** ```MARKETPLACE``` &#151; 
 The average dividend yield of the positions in the portfolio.
-Details The dividend yield of a security is the ratio of total annual dividend amount (trailing 12 months) to the price per share expressed as a percentage. The average dividend yield consists of individual security dividend yields weighted by their position sizes in the portfolio for each day in the selected range and averaged over time.
-Example In this case 0.0% is the average dividend-yield value over the period from July 2009 to November 2015as a percentage.The Hi and Lo values represent the largest and smallest average dividend-yield values seen in the period.The security with the largest average dividend-yield was A_US at 0.0%.
-Downside Capture PERFORMANCE
+**Details:** The dividend yield of a security is the ratio of total annual dividend amount (trailing 12 months) to the price per share expressed as a percentage. The average dividend yield consists of individual security dividend yields weighted by their position sizes in the portfolio for each day in the selected range and averaged over time.
+
+**Downside Capture** ```PERFORMANCE``` &#151; 
 Ratio of portfolio return to index return on index down periods.
-Example In this case 1 is the Downside Capture value at the end of November 2015 .The Hi and Lo values represent the largest and smallest Downside Capture values seen in the period.The security with the largest Downside Capture was XOM_US at 0.0279.
-Drawdown PERFORMANCE
+
+**Drawdown** ```PERFORMANCE``` &#151; 
 The maximum negative return from peak to trough during the selected period. Used mostly by investors to determine a component of risk and can highlight active management techniques like stop losses.
-Example In this case 0.0% is the end-of-period drawdown between July 2009 and November 2015 as a percentage.The Hi and Lo values represent the largest and smallest drawdown values seen in the period.The security with the largest end-of-period drawdown was HPQ_US falling 0.454% from its peak.
+
 Formula Daily returns are calculated as the sum of individual instrument returns ($) for the day divided by the previous day's closing capital:
 \[ R^{daily}_t = (\sum\limits_{i} R^{daily}_{i,t}) / CAP_{t-1} \]
 The monthly returns are calculated by compounding the daily returns over the corresponding month:
