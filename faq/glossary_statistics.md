@@ -778,13 +778,13 @@ The signed value of the value traded where sign indicates gross increasing trade
 
 **Trade Price** ```TRADING``` &#151; 
 Average trade price.
-Example In this case 55.6 is the average Trade Price value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Trade Price values seen in the period.The security with the largest average Trade Price was PCLN_US at 759.
-Trade Quantity TRADING
+
+**Trade Quantity** ```TRADING``` &#151; 
 Total traded quantity.
-Example In this case 1.07E-07 is the average Trade Quantity value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Trade Quantity values seen in the period.The security with the largest average Trade Quantity was MDT_US_1 at 8.21E-05.
-Trade Value TRADING
+
+**Trade Value** ```TRADING``` &#151; 
 Trade value (buys are negative).
-Example In this case 2.41% is the Trade Value value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Trade Value values seen in the period.The security with the largest Trade Value was BRKB_US at 0.84%.
+
 Trade Value (-) TRADING
 Trade value (buys are positive).
 Example In this case -2.41% is the Trade Value value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Trade Value values seen in the period.The security with the largest Trade Value was AGN_US at 0.548%.
