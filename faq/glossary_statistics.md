@@ -367,35 +367,36 @@ Instrument drawdown, peak to trough drop over full period.
 
 **Instrument Drawdown (when held)** ```MARKETPLACE``` &#151; 
 Instrument drawdown, peak to trough drop during time of ownership.
-Example In this case 2.1 is the Instrument Drawdown value at the end of November 2015.The Hi and Lo values represent the largest and smallest Instrument Drawdown values seen in the period.The security with the largest Instrument Drawdown was ANR_US at 170.
-Instrument Price MARKETPLACE
-The equally weighted average price for all instruments ever owned in the portfolio through the period.
-Details Instrument values represent the close at the end of the period.
-Example In this case $105.77 is the instrument-price value at the end of November 2015 in dollars.The Hi and Lo values represent the largest and smallest instrument-price values seen in the period.The security with the largest instrument-price was PCLN_US at $1,240.18.
-Instrument Return Post-Close MARKETPLACE
+
+**Instrument Price** ```MARKETPLACE``` &#151; 
+The equally weighted average price for all instruments ever owned in the portfolio through the period.<BR>
+**Details:** Instrument values represent the close at the end of the period.
+
+**Instrument Return Post-Close** ```MARKETPLACE``` &#151; 
 Underlying instrument return during five days subsequent to closing position (by rollup).
-Example In this case 81.4 is the total Instrument Return Post-Close value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest total Instrument Return Post-Close values seen in the period.The security with the largest total Instrument Return Post-Close was MBI_US at 24.8.
-Instrument Return Post-Open MARKETPLACE
+
+**Instrument Return Post-Open** ```MARKETPLACE``` &#151; 
 Underlying instrument return during first five days of opening of position (by rollup).
-Example In this case -2380 is the total Instrument Return Post-Open value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest total Instrument Return Post-Open values seen in the period.The security with the largest total Instrument Return Post-Open was REGN_US at 21.9.
-Instrument Return Pre-Close MARKETPLACE
+
+**Instrument Return Pre-Close** ```MARKETPLACE``` &#151; 
 Underlying instrument return during last five days of holding position (by rollup).
-Example In this case 114000 is the total Instrument Return Pre-Close value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest total Instrument Return Pre-Close values seen in the period.The security with the largest total Instrument Return Pre-Close was REGN_US at 3070.
-Instrument Return Pre-Open MARKETPLACE
+
+**Instrument Return Pre-Open** ```MARKETPLACE``` &#151; 
 Underlying instrument return five days prior to opening of position (by rollup).
-Example In this case 118 is the total Instrument Return Pre-Open value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest total Instrument Return Pre-Open values seen in the period.The security with the largest total Instrument Return Pre-Open was AAL_US at 13.4.
-Instrument beta MARKETPLACE
-A forward looking measure of sensitivity of an instrument to the SPY_US index.
-Details The beta of an instrument is the first-order sensitivity (or regression slope) of the underlying instrument daily returns regressed against the daily index returns for the previous 120 trading days.
-Example In this case 1.01 is the average instrument-beta value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest average instrument-beta values seen in the period.The security with the largest average instrument-beta was MTW_US at 2.39.
-Instrument return MARKETPLACE
+
+**Instrument beta** ```MARKETPLACE``` &#151; 
+A forward looking measure of sensitivity of an instrument to the SPY_US index.<BR>
+**Details:** The beta of an instrument is the first-order sensitivity (or regression slope) of the underlying instrument daily returns regressed against the daily index returns for the previous 120 trading days.
+
+**Instrument return** ```MARKETPLACE``` &#151; 
 Underlying instrument return.
-Example In this case 208% is the total Instrument return value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Instrument return values seen in the period.The security with the largest total Instrument return was REGN_US at 3070%.
-Instrument volatility RISK
+
+**Instrument volatility** ```RISK``` &#151; 
 The ex-ante or expected volatility of an instrument.
-Label for open and closed positions MARKETPLACE
+
+**Label for open and closed positions** ```MARKETPLACE``` &#151; 
 Label for open and closed positions.
-Example In this case 0.0% is the Label for open and closed positions value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Label for open and closed positions values seen in the period.The security with the largest Label for open and closed positions was AA_US_2 at 2%.
+
 Label for winners and losers MARKETPLACE
 Label for winners (non-negative p&l) and losers (negative p&l).
 Example In this case 0.0% is the Label for winners and losers value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Label for winners and losers values seen in the period.The security with the largest Label for winners and losers was CIT_US at 2%.
