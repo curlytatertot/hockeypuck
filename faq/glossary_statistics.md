@@ -746,13 +746,13 @@ The leading term of the strategic component, the rolling average weight return. 
 **Strategy Decomp (moving avg weight)** ```TRADING``` &#151; 
 The rolling average weight used in the strategic and tactical terms
 
-Strategy Decomp (strategic weight) TRADING
+**Strategy Decomp (strategic weight)** ```TRADING``` &#151; 
 The rolling average weight minus the baseline used in the strategic term
-Example In this case -364% is the Strategy Decomp value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Strategy Decomp values seen in the period.The security with the largest Strategy Decomp was AAPL_US at 3%.
-Strategy Decomp (strategic) TRADING
+
+**Strategy Decomp (strategic)** ```TRADING``` &#151; 
 Decomposition of P&L into baseline, strategic, and tactical components. The strategic component is the return of a portfolio having weight equal to the rolling average weight less a single baseline weight when held.
-Example In this case -747% is the total Strategy Decomp value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Strategy Decomp values seen in the period.The security with the largest total Strategy Decomp was AAPL_US at 5.03%.
-Strategy Decomp (strategic, benchmark) TRADING
+
+**Strategy Decomp (strategic, benchmark)** ```TRADING``` &#151; 
 Decomposition of P&L into baseline, strategic, and tactical components. The strategic benchmark component is the return of a portfolio having weight equal to the rolling average weight less a single baseline weight when held times the benchmark return. The benchmark return is the index return.
 Example In this case -687% is the total Strategy Decomp value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Strategy Decomp values seen in the period.The security with the largest total Strategy Decomp was XOM_US at 3.04%.
 Strategy Decomp (strategic, excess) TRADING
