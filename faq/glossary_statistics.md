@@ -574,7 +574,7 @@ Price to sales ratio of underlying instrument.
 
 **Price to Sales Ratio (when held)** ```MARKETPLACE``` &#151; 
 The average price-to-sales ratio of the positions in the portfolio.<BR>
-**Details:**s The price-to-sales ratio for a security is the ratio of the price per share to the trailing twelve months sales per share. The average price-to-sales for a portfolio or sub-portfolio consists of the average of daily price-to-sales values for the selected time period, where the daily price-to-sales for a particular day is given by the sum of individual security price-to-sales values weighted by their position sizes in the portfolio for that day.
+**Details:*s The price-to-sales ratio for a security is the ratio of the price per share to the trailing twelve months sales per share. The average price-to-sales for a portfolio or sub-portfolio consists of the average of daily price-to-sales values for the selected time period, where the daily price-to-sales for a particular day is given by the sum of individual security price-to-sales values weighted by their position sizes in the portfolio for that day.
 Example In this case 0.0 is the average price-to-sales value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest average price-to-sales values seen in the period.The security with the largest average price-to-sales was A_US at 0.0.
 Principal component RISK
 The first principal component of the portfolio's return. The net timeseries is the principal factor. The instrument detail gives the loadings.
