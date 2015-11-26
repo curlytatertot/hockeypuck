@@ -760,8 +760,8 @@ Decomposition of P&L into baseline, strategic, and tactical components. The stra
 
 **Strategy Decomp (tactical weight)** ```TRADING``` &#151; 
 The daily weight minus the rolling average weight used in the tactical term
-Example In this case -0.0156% is the Strategy Decomp value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Strategy Decomp values seen in the period.The security with the largest Strategy Decomp was AA_US_2 at 0.0%.
-Strategy Decomp (tactical) TRADING
+
+**Strategy Decomp (tactical)** ```TRADING``` &#151; 
 Decomposition of P&L into baseline, strategic, tactical, and execution components. The tactical component is the return of a portfolio having weight equal to the actual weight less the rolling average weight.
 Example In this case -1.37% is the total Strategy Decomp value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Strategy Decomp values seen in the period.The security with the largest total Strategy Decomp was XOM_US at 0.266%.
 Strategy Decomp (tactical, benchmark) TRADING
