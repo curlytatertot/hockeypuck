@@ -466,116 +466,115 @@ Number of down positions using alpha returns.
 **Number of down rollup when index down** ```PERFORMANCE``` &#151; 
 The number of positions in the portfolio or sub-portfolio with a negative return from the start of the selected time period until the indicated day, computed on periods when the SPY_US index is down.
 
-Number of down rollup when index up PERFORMANCE
+**Number of down rollup when index up** ```PERFORMANCE``` &#151; 
 The number of positions in the portfolio or sub-portfolio with a negative return from the start of the selected time period until the indicated day, computed on periods when the SPY_US index is up.
-Example In this case 77 is the number-of-down-positions-when-index-up at the end of November 2015.The Hi and Lo values represent the largest and smallest number-of-down-positions-when-index-up values seen in the period.The security with the largest number-of-down-positions-when-index-up was AA_US_2 at 1.
-Number of nonzero days PERFORMANCE
+
+**Number of nonzero days** ```PERFORMANCE``` &#151; 
 Number of nonzero days
-Example In this case 1610% is the Number of nonzero days value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Number of nonzero days values seen in the period.The security with the largest Number of nonzero days was SPY Residual at 1610%.
-Number of nonzero interval PERFORMANCE
-Number of nonzero interval
-Example In this case 77% is the Number of nonzero interval value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Number of nonzero interval values seen in the period.The security with the largest Number of nonzero interval was A_US at 77%.
-Number of nonzero return rollup PERFORMANCE
+
+**Number of nonzero interval** ```PERFORMANCE``` &#151; 
+Number of nonzero interval.
+
+**Number of nonzero return rollup** ```PERFORMANCE``` &#151; 
 Number of nonzero return positions
-Example In this case 614% is the value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was A_US at 1%.
-Number of nonzero return rollup using alpha returns PERFORMANCE
-Number of nonzero return positions using alpha returns
-Example In this case 624% is the value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was A_US at 1%.
-Number of nonzero rollup when index down PERFORMANCE
-Number of nonzero positions when index down
-Example In this case 0.0% is the value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was A_US at 0.0%.
-Number of nonzero rollup when index up PERFORMANCE
-Number of nonzero positions when index up
-Example In this case 614% is the value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was A_US at 1%.
-Number of up days PERFORMANCE
-The number of days on which the portfolio or sub-portfolio had a positive return from the start of the selected time period until the indicated day.
-Example In this case 900 is the number-of-up-days value at the end of November 2015.The Hi and Lo values represent the largest and smallest number-of-up-days values seen in the period.The security with the largest number-of-up-days was MO_US at 901.
-Number of up days when index down PERFORMANCE
+
+**Number of nonzero return rollup using alpha returns** ```PERFORMANCE``` &#151; 
+Number of nonzero return positions using alpha returns.
+
+**Number of nonzero rollup when index down** ```PERFORMANCE``` &#151; 
+Number of nonzero positions when index down.
+
+**Number of nonzero rollup when index up** ```PERFORMANCE``` &#151; 
+Number of nonzero positions when index up.
+
+**Number of up days** ```PERFORMANCE``` &#151;  The number of days on which the portfolio or sub-portfolio had a positive return from the start of the selected time period until the indicated day.
+
+**Number of up days when index down** ```PERFORMANCE``` &#151; 
 The number of days on which the portfolio or sub-portfolio had a positive return from the start of the selected time period until the indicated day, computed on days when the SPY_US index is down.
-Example In this case 0.0 is the number-of-up-days-when-index-down value at the end of November 2015.The Hi and Lo values represent the largest and smallest number-of-up-days-when-index-down values seen in the period.The security with the largest number-of-up-days-when-index-down was SPY Residual at 289.
-Number of up days when index up PERFORMANCE
+
+**Number of up days when index up** ```PERFORMANCE``` &#151; 
 The number of days on which the portfolio or sub-portfolio had a positive return from the start of the selected time period until the indicated day, computed on days when the SPY_US index is up.
-Example In this case 900 is the number-of-up-days-when-index-up value at the end of November 2015.The Hi and Lo values represent the largest and smallest number-of-up-days-when-index-up values seen in the period.The security with the largest number-of-up-days-when-index-up was MMM_US at 736.
-Number of up interval PERFORMANCE
-Number of up interval
-Example In this case 52% is the Number of up interval value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Number of up interval values seen in the period.The security with the largest Number of up interval was NI_US at 58%.
-Number of up interval when index up PERFORMANCE
-Number of up interval when index up
-Example In this case 52% is the Number of up interval when index up value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Number of up interval when index up values seen in the period.The security with the largest Number of up interval when index up was TMK_US at 50%.
-Number of up rollup PERFORMANCE
+
+**Number of up interval** ```PERFORMANCE``` &#151; 
+Number of up interval.
+
+**Number of up interval when index up** ```PERFORMANCE``` &#151; 
+Number of up interval when index up.
+
+**Number of up rollup** ```PERFORMANCE``` &#151; 
 The number of positions in the portfolio or sub-portfolio with a positive return from the start of the selected time period until the indicated day.
-Example In this case 537 is the number-of-up-positions at the end of November 2015.The Hi and Lo values represent the largest and smallest number-of-up-positions values seen in the period.The security with the largest number-of-up-positions was A_US at 1.
-Number of up rollup using alpha returns PERFORMANCE
-Number of up positions using alpha returns
-Example In this case 305% is the value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was A_US at 1%.
-Number of up rollup when index down PERFORMANCE
+
+**Number of up rollup using alpha returns** ```PERFORMANCE``` &#151; 
+Number of up positions using alpha returns.
+
+**Number of up rollup when index down** ```PERFORMANCE``` &#151; 
 The number of positions in the portfolio or sub-portfolio with a positive return from the start of the selected time period until the indicated day, computed on periods when the SPY_US index is down.
-Example In this case 0.0 is the number-of-up-positions-when-index-down at the end of November 2015.The Hi and Lo values represent the largest and smallest number-of-up-positions-when-index-down values seen in the period.The security with the largest number-of-up-positions-when-index-down was A_US at 0.0.
-Number of up rollup when index up PERFORMANCE
+
+**Number of up rollup when index up PERFORMANCE** ```PERFORMANCE``` &#151; 
 The number of positions in the portfolio or sub-portfolio with a positive return from the start of the selected time period until the indicated day, computed on periods when the SPY_US index is up.
-Example In this case 537 is the number-of-up-positions-when-index-up at the end of November 2015.The Hi and Lo values represent the largest and smallest number-of-up-positions-when-index-up values seen in the period.The security with the largest number-of-up-positions-when-index-up was A_US at 1.
-Operating Margin MARKETPLACE
+
+**Operating Margin** ```MARKETPLACE``` &#151; 
 Operating margin of underlying instrument.
-Example In this case 0.0 is the average Operating Margin value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Operating Margin values seen in the period.The security with the largest average Operating Margin was A_US at 0.0.
-Operating Margin (when held) MARKETPLACE
-A measure of profitability per dollar of sales.
-Details The operating margin is a company's total sales minus cost of goods sold, selling, general and administrative costs, and depreciation and amortization, with the result divided by the total sales and then expressed as a percentage. The average operating margin for a portfolio or sub-portfolio consists of the average of daily operating margin values for the selected time period, where the daily operating margin for a particular day is given by the sum of individual instrument operating margins weighted by their position sizes in the portfolio for that day.
-Example In this case 0.0% is the average operating-margin value over the period from July 2009 to November 2015as a percentage.The Hi and Lo values represent the largest and smallest average operating-margin values seen in the period.The security with the largest average operating-margin was A_US at 0.0%.
-P&L PERFORMANCE
+
+**Operating Margin (when held)** ```MARKETPLACE``` &#151; 
+A measure of profitability per dollar of sales.<BR>
+**Details:** The operating margin is a company's total sales minus cost of goods sold, selling, general and administrative costs, and depreciation and amortization, with the result divided by the total sales and then expressed as a percentage. The average operating margin for a portfolio or sub-portfolio consists of the average of daily operating margin values for the selected time period, where the daily operating margin for a particular day is given by the sum of individual instrument operating margins weighted by their position sizes in the portfolio for that day.
+
+**P&L** ```PERFORMANCE``` &#151; 
 The profit and loss of the portfolio.
-Example In this case 157% is the cumulative profit and loss between July 2009 and November 2015 as a percentage.The Hi and Lo values represent the largest and smallest cumulative returns seen in the period.The biggest winner over the period was AAPL_US returning 8.12%.
-Formula Daily returns are calculated as the sum of individual instrument returns ($) for the day divided by the previous day's closing capital:
-\[ R^{daily}_t = (\sum\limits_{i} R^{daily}_{i,t}) / CAP_{t-1} \]
-The monthly returns are calculated by compounding the daily returns over the corresponding month:
-\[ R^{monthly}_t = (\prod\limits_{d \in t} (1 + R^{daily}_{d})) - 1 \]
-The total return for the period is computed by compounding the monthly returns.
-\[ R_P = (\prod\limits_{t \in P} (1 + R^{monthly}_{t})) - 1 \]
-Position Quantity EXPOSURE
+Example In this case 157% is the cumulative profit and loss between July 2009 and November 2015 as a percentage.The Hi and Lo values represent the largest and smallest cumulative returns seen in the period.The biggest winner over the period was AAPL_US returning 8.12%.<BR>
+**Formula:** Daily returns are calculated as the sum of individual instrument returns ($) for the day divided by the previous day's closing capital:<BR>
+$$R^{daily}_t = (\sum\limits_{i} R^{daily}_{i,t}) / CAP_{t-1}$$ <BR>
+The monthly returns are calculated by compounding the daily returns over the corresponding month:<BR>
+$$R^{monthly}_t = (\prod\limits_{d \in t} (1 + R^{daily}_{d})) - 1$$<BR>
+The total return for the period is computed by compounding the monthly returns.<BR>
+$$R_P = (\prod\limits_{t \in P} (1 + R^{monthly}_{t})) - 1$$
+
+**Position Quantity** ```EXPOSURE`` &#151; 
 Position Quantity.
-Example In this case 0.23 is the average Position Quantity value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Position Quantity values seen in the period.The security with the largest average Position Quantity was AAPL_US at 4.7.
-Position count EXPOSURE
-This is the number of positons owned at any point in time.
-Example In this case 502 is the number of distinct positions held at the end of November 2015.The Hi and Lo values represent the largest and smallest numbers of positions held at the end of any month in the period. One of the positions held at the end of the period is A_US.
-Details A position is counted if the total share count is non-zero at the end of the month.
-Position count total EXPOSURE
-Total number of positions ever held since start of period.
-Example In this case 622 is the value at the end of November 2015 .The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was A_US at 1.
-Positions closed count EXPOSURE
+
+**Position count** ```EXPOSURE``` &#151; 
+This is the number of positons owned at any point in time.<BR>
+**Details:** A position is counted if the total share count is non-zero at the end of the month.
+
+**Position count total** ```EXPOSURE``` &#151;  Total number of positions ever held since start of period.
+
+**Positions closed count** ```EXPOSURE``` &#151; 
 Number of positions closed on a given day.
-Example In this case 666 is the value at the end of November 2015 .The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was CASH_US at 22.
-Positions opened count EXPOSURE
+
+**Positions opened count** ```EXPOSURE``` &#151; 
 Number of positions opened on a given day.
-Example In this case 684 is the value at the end of November 2015 .The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was CASH_US at 22.
-Price To Earnings Ratio Label MARKETPLACE
+
+**Price To Earnings Ratio Label** ```MARKETPLACE``` &#151; 
 Price To Earnings Ratio Label
-Example In this case 1% is the Price To Earnings Ratio Label value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Price To Earnings Ratio Label values seen in the period.The security with the largest Price To Earnings Ratio Label was A_US at 1%.
-Price to Book Ratio MARKETPLACE
+
+**Price to Book Ratio** ```MARKETPLACE``` &#151; 
 Price to book ratio of underlying instrument.
-Example In this case 0.0 is the average Price to Book Ratio value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Price to Book Ratio values seen in the period.The security with the largest average Price to Book Ratio was A_US at 0.0.
-Price to Book Ratio (when held) MARKETPLACE
-The average price-to-book ratio of the positions in the portfolio.
-Details The price-to-book ratio for a security is the ratio of the price per share to the start-of-quarter book value per share. The average price-to-book for a portfolio or sub-portfolio consists of the average of daily price-to-book values for the selected time period, where the daily price-to-book for a particular day is given by the sum of individual instrument price-to-book values weighted by their position sizes in the portfolio for that day.
-Example In this case 0.0 is the average price-to-book value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest average price-to-book values seen in the period.The security with the largest average price-to-book was A_US at 0.0.
-Price to Cash Ratio MARKETPLACE
+
+**Price to Book Ratio (when held)** ```MARKETPLACE``` &#151; 
+The average price-to-book ratio of the positions in the portfolio.<BR>
+**Details:** The price-to-book ratio for a security is the ratio of the price per share to the start-of-quarter book value per share. The average price-to-book for a portfolio or sub-portfolio consists of the average of daily price-to-book values for the selected time period, where the daily price-to-book for a particular day is given by the sum of individual instrument price-to-book values weighted by their position sizes in the portfolio for that day.
+
+**Price to Cash Ratio** ```MARKETPLACE``` &#151; 
 Price to cash ratio of underlying instrument.
-Example In this case 0.0 is the average Price to Cash Ratio value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Price to Cash Ratio values seen in the period.The security with the largest average Price to Cash Ratio was A_US at 0.0.
-Price to Cash Ratio (when held) MARKETPLACE
-This is the ratio of closing price to the latest reported cash balances per share.
-Details The average price-to-cash for a portfolio or sub-portfolio consists of the average of daily price-to-cash values for the selected time period, where the daily price-to-cash for a particular day is given by the sum of individual instrument price-to-cash values weighted by their position sizes in the portfolio for that day.
-Example In this case 0.0 is the average price-to-cash value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest average price-to-cash values seen in the period.The security with the largest average price-to-cash was A_US at 0.0.
-Price to Earnings Ratio MARKETPLACE
+
+**Price to Cash Ratio (when held)** ```MARKETPLACE``` &#151; 
+This is the ratio of closing price to the latest reported cash balances per share.<BR>
+**Details:** The average price-to-cash for a portfolio or sub-portfolio consists of the average of daily price-to-cash values for the selected time period, where the daily price-to-cash for a particular day is given by the sum of individual instrument price-to-cash values weighted by their position sizes in the portfolio for that day.
+
+**Price to Earnings Ratio** ```MARKETPLACE``` &#151; 
 Price to earnings ratio of underlying instrument.
-Example In this case 0.0 is the average Price to Earnings Ratio value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Price to Earnings Ratio values seen in the period.The security with the largest average Price to Earnings Ratio was A_US at 0.0.
-Price to Earnings Ratio (when held) MARKETPLACE
-The average price to earnings ratio of the positions in the portfolio.
-Details The price-to-earnings ratio for a security is the ratio of the price per share to the trailing twelve months earnings per share. The average price-to-earnings for a portfolio or sub-portfolio consists of the average of daily price-to-earnings values for the selected time period, where the daily price-to-earnings for a particular day is given by the sum of individual instrument price-to-earnings values weighted by their position sizes in the portfolio for that day.
-Example In this case 0.0 is the average price-to-earnings value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest average price-to-earnings values seen in the period.The security with the largest average price-to-earnings was A_US at 0.0.
-Price to Sales Ratio MARKETPLACE
+
+**Price to Earnings Ratio (when held)** ```MARKETPLACE``` &#151; 
+The average price to earnings ratio of the positions in the portfolio.<BR>
+**Details:** The price-to-earnings ratio for a security is the ratio of the price per share to the trailing twelve months earnings per share. The average price-to-earnings for a portfolio or sub-portfolio consists of the average of daily price-to-earnings values for the selected time period, where the daily price-to-earnings for a particular day is given by the sum of individual instrument price-to-earnings values weighted by their position sizes in the portfolio for that day.
+
+**Price to Sales Ratio** ```MARKETPLACE``` &#151; 
 Price to sales ratio of underlying instrument.
-Example In this case 0.0 is the average Price to Sales Ratio value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Price to Sales Ratio values seen in the period.The security with the largest average Price to Sales Ratio was A_US at 0.0.
-Price to Sales Ratio (when held) MARKETPLACE
-The average price-to-sales ratio of the positions in the portfolio.
-Details The price-to-sales ratio for a security is the ratio of the price per share to the trailing twelve months sales per share. The average price-to-sales for a portfolio or sub-portfolio consists of the average of daily price-to-sales values for the selected time period, where the daily price-to-sales for a particular day is given by the sum of individual security price-to-sales values weighted by their position sizes in the portfolio for that day.
+
+**Price to Sales Ratio (when held)** ```MARKETPLACE``` &#151; 
+The average price-to-sales ratio of the positions in the portfolio.<BR>
+**Details:**s The price-to-sales ratio for a security is the ratio of the price per share to the trailing twelve months sales per share. The average price-to-sales for a portfolio or sub-portfolio consists of the average of daily price-to-sales values for the selected time period, where the daily price-to-sales for a particular day is given by the sum of individual security price-to-sales values weighted by their position sizes in the portfolio for that day.
 Example In this case 0.0 is the average price-to-sales value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest average price-to-sales values seen in the period.The security with the largest average price-to-sales was A_US at 0.0.
 Principal component RISK
 The first principal component of the portfolio's return. The net timeseries is the principal factor. The instrument detail gives the loadings.
