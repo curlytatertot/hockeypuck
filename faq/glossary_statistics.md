@@ -47,7 +47,8 @@ The average daily return of positions in a portfolio or sub-portfolio.Formula Da
 $$ ADR^{daily}_t = \frac{\sum\limits_{i} R^{daily}_{i,t}}{ CAP_{t-1} \times |\{ i: R^{daily}_{i,t} \ne 0 \}|}$$ <BR>
 
 The monthly values are averaged over each day in the corresponding month.
-Average gross exposure over rollups. EXPOSURE
+
+**Average gross exposure over rollups.** ```EXPOSUR``` &#151; 
 Average delta adjusted gross exposure of positions.
 
 **Average of down days** ```PERFORMANCE``` &#151; 
