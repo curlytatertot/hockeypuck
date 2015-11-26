@@ -108,52 +108,54 @@ Average of nonzero positions when index down.
 **Average of nonzero rollup when index up** ```PERFORMANCE``` &#151; 
 Average of nonzero positions when index up.
 
-Average of up days PERFORMANCE
+**Average of up days** ```PERFORMANCE``` &#151; 
 The average daily portfolio or sub-portfolio return for days on which the portfolio had a positive return from the start of the selected time period until the indicated day.
-Example In this case 0.687% is the average-of-up-days value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average-of-up-days values seen in the period.The security with the largest average-of-up-days was SPY Residual at 0.0466%.
-Average of up days when index down PERFORMANCE
+
+**Average of up days when index down** ```PERFORMANCE``` &#151; 
 The average daily portfolio or sub-portfolio return for days on which the portfolio had a positive return from the start of the selected time period until the indicated day, computed on days when the SPY_US index is down.
-Example In this case 0.0% is the average-of-up-days-when-index-down value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average-of-up-days-when-index-down values seen in the period.The security with the largest average-of-up-days-when-index-down was SPY Residual at 0.041%.
-Average of up days when index up PERFORMANCE
+
+**Average of up days when index up** ```PERFORMANCE``` &#151; 
 The average daily portfolio or sub-portfolio return for days on which the portfolio had a positive return from the start of the selected time period until the indicated day, computed on days when the SPY_US index is up.
-Example In this case 0.687% is the average-of-up-days-when-index-up value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average-of-up-days-when-index-up values seen in the period.The security with the largest average-of-up-days-when-index-up was SPY Residual at 0.0497%.
-Average of up interval PERFORMANCE
-Average of up interval
-Example In this case 3.37% is the Average of up interval value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Average of up interval values seen in the period.The security with the largest Average of up interval was AAPL_US at 0.187%.
-Average of up interval when index down PERFORMANCE
-Average of up interval when index down
-Example In this case 0.0% is the Average of up interval when index down value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Average of up interval when index down values seen in the period.The security with the largest Average of up interval when index down was AAPL_US at 0.168%.
-Average of up interval when index up PERFORMANCE
-Average of up interval when index up
-Example In this case 3.37% is the Average of up interval when index up value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Average of up interval when index up values seen in the period.The security with the largest Average of up interval when index up was AAPL_US at 0.189%.
-Average of up rollup PERFORMANCE
+
+**Average of up interval** ```PERFORMANCE``` &#151; 
+Average of up interval.
+
+**Average of up interval when index down** ```PERFORMANCE``` &#151; 
+Average of up interval when index down.
+
+**Average of up interval when index up** ```PERFORMANCE``` &#151; 
+Average of up interval when index up.
+
+**Average of up rollup** ```PERFORMANCE``` &#151; 
 The average position return for positions in the portfolio or sub-portfolio with a positive return from the start of the selected time period until the indicated day.
-Example In this case 0.312% is the average-of-up-positions value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average-of-up-positions values seen in the period.The security with the largest average-of-up-positions was AAPL_US at 8.12%.
-Average of up rollup using alpha returns PERFORMANCE
-Average of up positions using alpha returns
-Example In this case 0.139% is the value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was SPY Residual at 4.4%.
-Average of up rollup when index down PERFORMANCE
+
+**Average of up rollup using alpha returns** ```PERFORMANCE``` &#151; 
+Average of up positions using alpha returns.
+
+**Average of up rollup when index down** ```PERFORMANCE``` &#151; 
 The average position return for positions in the portfolio or sub-portfolio with a positive return from the start of the selected time period until the indicated day, computed on periods when the SPY_US index is down.
-Example In this case 0.0% is the average-of-up-positions-when-index-down value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average-of-up-positions-when-index-down values seen in the period.The security with the largest average-of-up-positions-when-index-down was A_US at 0.0%.
-Average of up rollup when index up PERFORMANCE
+
+**Average of up rollup when index up** ```PERFORMANCE``` &#151; 
 The average position return for positions in the portfolio or sub-portfolio with a positive return from the start of the selected time period until the indicated day, computed on periods when the SPY_US index is up.
-Example In this case 0.312% is the average-of-up-positions-when-index-up value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average-of-up-positions-when-index-up values seen in the period.The security with the largest average-of-up-positions-when-index-up was AAPL_US at 8.12%.
-Average position return PERFORMANCE
-The average return of distinct positions in an instrument in the selected time period. A distinct position begins when a long (short) in an instrument is first established and ends when the position in the instrument becomes flat or short (long).
-Example In this case 0.0856 is the average return of distinct positions between July 2009 and November 2015. The Hi and Lo values represent the largest and average return values for distinct positions seen in the period. The most accurately traded security over the period was MSFT_US with position returns averaging 1.97.
-Formula A distinct position is a long (short) in a particular security that begins on the day the position is opened and ends on the day it is closed or reverses direction to short (long), or until the current time, whichever is earlier. The return for a position is the compounded daily return for its security over the duration of the trade.
-\[ R^p = \prod\limits_{t_O \le t \le t_C } (1 + R^{daily}_{s(p),t}) - 1 \]
-The set of distinct positions for a portfolio at a given point in time is the union of the sets of positions for each included security up until that time.
-\[ DP^P_T = \bigcup_{s \in P} Positions(s,T) \]
-The average value position returns for a portfolio at a given time is the sum of the individual position returns divided by the number of all positions, converted to a percentage.
-\[ APR^P_T = 100 \times \frac{ \sum\limits_{s \in P} \sum\limits_{p in DP^s_T} R^p}{| \bigcup_{s \in P} DP^s_T |} \]
+
+**Average position return** ```PERFORMANCE``` &#151; 
+The average return of distinct positions in an instrument in the selected time period. A distinct position begins when a long (short) in an instrument is first established and ends when the position in the instrument becomes flat or short (long).<BR> _Formula:_ A distinct position is a long (short) in a particular security that begins on the day the position is opened and ends on the day it is closed or reverses direction to short (long), or until the current time, whichever is earlier. The return for a position is the compounded daily return for its security over the duration of the trade.<BR>
+$$R^p = \prod\limits_{t_O \le t \le t_C } (1 + R^{daily}_{s(p),t}) - 1$$
+
+The set of distinct positions for a portfolio at a given point in time is the union of the sets of positions for each included security up until that time.<BR>
+$$DP^P_T = \bigcup_{s \in P} Positions(s,T)$$
+
+The average value position returns for a portfolio at a given time is the sum of the individual position returns divided by the number of all positions, converted to a percentage.<BR>
+$$APR^P_T = 100 \times \frac{ \sum\limits_{s \in P} \sum\limits_{p in DP^s_T} R^p}{| \bigcup_{s \in P} DP^s_T |}$$
+
 The monthly value of average position return is the value on the last day of the month.
-Average weight of down rollup PERFORMANCE
-Average weight of down positions
-Example In this case -0.0527% is the value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was A_US at 0.0%.
-Average weight of down rollup using alpha returns PERFORMANCE
-Average weight of down positions using alpha returns
-Example In this case -0.00019% is the value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was A_US at 0.0%.
+
+**Average weight of down rollup** ```PERFORMANCE``` &#151; 
+Average weight of down positions.
+
+**Average weight of down rollup using alpha returns** ```PERFORMANCE``` &#151; 
+Average weight of down positions using alpha returns.
+
 Average weight of up rollup PERFORMANCE
 Average weight of up positions
 Example In this case 0.183% is the value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was AAPL_US at 3.92%.
