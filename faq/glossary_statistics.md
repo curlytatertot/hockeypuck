@@ -709,11 +709,11 @@ A measurement of historic risk-adjusted performance.<BR>
 **Sortino Ratio Geometric Annualized** ```PERFORMANCE``` &#151; 
 A measurement of historic risk-adjusted performance.<BR>
 **Details:** It is calculated by dividing geometric portfolio returns by the volatility of negative portfolio returns. Sortino ratios provide a scaling mechanism to compare portfolios with differing degrees of risk without introducing a penalty for upside volatility.
-Example In this case 1.31 is the geometric Sortino ratio value at the end of November 2015 .The Hi and Lo values represent the largest and smallest geometric Sortino ratio values seen in the period.The security with the largest geometric Sortino ratio was WB_US_1 at 40.6.
-Static Position Compare PERFORMANCE
+
+**Static Position Compare** ```PERFORMANCE``` &#151; 
 Difference of actual return and return as a result of fixing the portfolio at the start of period.
-Example In this case 157% is the total Static Position Compare value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Static Position Compare values seen in the period.The security with the largest total Static Position Compare was AAPL_US at 8.12%.
-Static Position Compare (posterior) PERFORMANCE
+
+**Static Position Compare (posterior)** ```PERFORMANCE``` &#151; 
 Difference of actual return and the return of a portfolio fixed at the end of period over the period.
 Example In this case 157% is the total Static Position Compare value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Static Position Compare values seen in the period.The security with the largest total Static Position Compare was AAPL_US at 8.12%.
 Static Position Return PERFORMANCE
