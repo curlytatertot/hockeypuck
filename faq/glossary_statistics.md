@@ -3,9 +3,13 @@
 ## _How can I access a glossary of Data Lens / Statistics definitions?_
 
 ####To view a glossary of statistics / data lenses specific to your portfolios and layouts, enter:
-https://yourservername.lightkeeperhq.com/help/glossary
+###https://yourservername.lightkeeperhq.com/help/glossary
 
-Be sure to replace "yourservername" with the name of your account.  The list of stats is long, and
+#####Be sure to replace "yourservername" with the name of your account.  The list of stats is long, and will take a minute or so to download.
+
+#####In addition to the defitions (below), examples of each stat are included, using data and choices specific to your layout.
+
+***
 
 **Active Management (Avg held wgt return)** ```TRADING``` &#151; Decomposition of P&L into selection, timing, sizing, and execution components. The timing component leading term is the return of a portfolio having weights equal to the average weights during the time the position is held.
 
