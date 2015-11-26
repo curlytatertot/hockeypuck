@@ -806,4 +806,3 @@ Parametric value at risk. Uses volatility estimate based on exponential weighted
 **Volume** ```MARKETPLACE``` &#151; 
 The equally weighted average trading volume for all instruments ever owned in the portfolio through the period.<BR>
 **Details:** Instrument values represent the 20-day (trailing) median daily trading volume through the period.
-Example In this case $712,194,655.82 is the instrument-volume value at the end of November 2015 in dollars.The Hi and Lo values represent the largest and smallest instrument-volume values seen in the period.The security with the largest instrument-volume was AAPL_US at $5,058,722,279.03.
