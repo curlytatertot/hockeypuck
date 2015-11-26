@@ -646,67 +646,69 @@ Realized volatility over a rolling long window.
 **Realized volatility (rolling, short window)** ```RISK``` &#151; 
 Realized volatility over a rolling short window.
 
-Return on an invested basis using trades PERFORMANCE
+**Return on an invested basis using tradesç
 Portfolio P&L represented on a invested (ROIC) basis using trades.
-Example In this case 156 is the total Return on an invested basis using trades value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest total Return on an invested basis using trades values seen in the period.The security with the largest total Return on an invested basis using trades was LTD_US at 913.
-Returns (actual) PERFORMANCE
+
+**Returns (actual)** ```PERFORMANCE``` &#151; 
 Returns without additivity smoothing.
-Example In this case 157 is the total Returns value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest total Returns values seen in the period.The security with the largest total Returns was AAPL_US at 5.1.
-Returns Begin Month Basis PERFORMANCE
+
+**Returns Begin Month Basis** ```PERFORMANCE``` &#151; 
 Returns using a begin of month basis.
-Example In this case 152 is the total Returns Begin Month Basis value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest total Returns Begin Month Basis values seen in the period.The security with the largest total Returns Begin Month Basis was AAPL_US at 5.1.
-Returns on avg weight basis PERFORMANCE
+
+**Returns on avg weight basis** ```PERFORMANCE``` &#151; 
 Returns using an average weight basis.
-Example In this case 104 is the total Returns on avg weight basis value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest total Returns on avg weight basis values seen in the period.The security with the largest total Returns on avg weight basis was AGN_US at 1060.
-Sharpe Ratio PERFORMANCE
-A measurement of historic risk-adjusted performance.
-Details It is calculated by dividing portfolio returns by their volatility. Sharpe ratios provide a scaling mechanism to compare portfolios with differing degrees of risk.
-Example In this case 2.56 is the Sharpe ratio value at the end of November 2015.The Hi and Lo values represent the largest and smallest Sharpe ratio values seen in the period.The security with the largest Sharpe ratio was RAI_US at 4.24.
-Sharpe Ratio Geometric Annualized PERFORMANCE
-A measurement of historic risk-adjusted performance.
-Details It is calculated by dividing compounded portfolio returns by their volatility. Sharpe ratios provide a scaling mechanism to compare portfolios with differing degrees of risk.
-Example In this case 1.01 is the geometric Sharpe ratio value at the end of November 2015.The Hi and Lo values represent the largest and smallest geometric Sharpe ratio values seen in the period.The security with the largest geometric Sharpe ratio was AOLWCL_US at 12.1.
-Sharpe Ratio using alpha returns PERFORMANCE
+
+**Sharpe Ratio** ```PERFORMANCE``` &#151; 
+A measurement of historic risk-adjusted performance.<BR>
+**Details:** It is calculated by dividing portfolio returns by their volatility. Sharpe ratios provide a scaling mechanism to compare portfolios with differing degrees of risk.
+
+**Sharpe Ratio Geometric Annualized** ```PERFORMANCE``` &#151; 
+A measurement of historic risk-adjusted performance.<BR>
+**Details:** It is calculated by dividing compounded portfolio returns by their volatility. Sharpe ratios provide a scaling mechanism to compare portfolios with differing degrees of risk.
+
+**Sharpe Ratio using alpha returns** ```PERFORMANCE``` &#151; 
 Ratio of return to volatility of alpha returns.
-Example In this case -0.125 is the Sharpe Ratio using alpha returns value at the end of November 2015 .The Hi and Lo values represent the largest and smallest Sharpe Ratio using alpha returns values seen in the period.The security with the largest Sharpe Ratio using alpha returns was STZ_US at 2.95.
-Short Interest MARKETPLACE
+
+**Short Interest** ```MARKETPLACE``` &#151; 
 Fraction of float shorted.
-Example In this case 0.0 is the average Short Interest value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest average Short Interest values seen in the period.The security with the largest average Short Interest was A_US at 0.0.
-Short Interest (when held) MARKETPLACE
-The average short interest of the positions in the portfolio.
-Details Short interest for a security is the ratio of the number of shares sold short to the number of shares trading in the market expressed as a percentage. The average short interest for a portfolio or sub-portfolio consists of the average of daily short-interest values for the selected time period, where the daily short-interest for a particular day is given by the sum of individual instrument short interest values weighted by their position sizes in the portfolio for that day.
-Example In this case 0.0% is the average short-interest value over the period from July 2009 to November 2015as a percentage.The Hi and Lo values represent the largest and smallest average short-interest values seen in the period.The security with the largest average short-interest was A_US at 0.0%.
-Slugging Average Weight (by rollup) PERFORMANCE
+
+**Short Interest (when held)** ```MARKETPLACE``` &#151; 
+The average short interest of the positions in the portfolio.<BR>
+**Details:** Short interest for a security is the ratio of the number of shares sold short to the number of shares trading in the market expressed as a percentage. The average short interest for a portfolio or sub-portfolio consists of the average of daily short-interest values for the selected time period, where the daily short-interest for a particular day is given by the sum of individual instrument short interest values weighted by their position sizes in the portfolio for that day.
+
+**Slugging Average Weight (by rollup) PERFORMANCE** ```PERFORMANCE``` &#151; 
 Ratio of the average weight of winning positions to losing positions.
-Example In this case 3.47% is the ending value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest ending values seen in the period.The security with the largest ending was AAPL_US at 21.4%.
-Slugging Average Weight (by rollup) using alpha returns PERFORMANCE
+
+**Slugging Average Weight (by rollup) using alpha returns** ```PERFORMANCE``` &#151; 
 Ratio of the average weight of winning positions to losing positions.
-Example In this case 1.09% is the ending value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest ending values seen in the period.The security with the largest ending was SPY Residual at 31.6%.
-Slugging Implied Return (by rollup) PERFORMANCE
+
+**Slugging Implied Return (by rollup)** ```PERFORMANCE``` &#151; 
 Ratio of the implied returns of winning positions to losing positions.
-Example In this case 1.92% is the ending value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest ending values seen in the period.The security with the largest ending was ABG_US at +inf%.
-Slugging Implied Return (by rollup) using alpha returns PERFORMANCE
+
+**Slugging Implied Return (by rollup) using alpha returns** ```PERFORMANCE``` &#151; 
 Ratio of the implied returns of winning positions to losing positions.
-Example In this case 0.855% is the value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was ABG_US at +inf%.
-Slugging Ratio (by period) PERFORMANCE
-The ratio of the average positive daily return to the average negative daily return.
-Details The headline number is the ratio of the average positive daily return of the full portfolio to the average negative daily return of the full portfolio.The values in the time series are the average of the positive daily returns of the full portfolio to the average negative daily return of the full portfolio within each interval (Note that when the interval is daily this is ill-defined and the series is flat and equal to 1.0).In the data panel, each value in the histogram is the ratio of the average positive daily return to the average negative daily return for the corresponding instrument.
-Slugging Ratio (by period) using alpha returns PERFORMANCE
+
+**Slugging Ratio (by period)** ```PERFORMANCE``` &#151; 
+The ratio of the average positive daily return to the average negative daily return.<BR>
+**Details:** The headline number is the ratio of the average positive daily return of the full portfolio to the average negative daily return of the full portfolio.The values in the time series are the average of the positive daily returns of the full portfolio to the average negative daily return of the full portfolio within each interval (Note that when the interval is daily this is ill-defined and the series is flat and equal to 1.0).In the data panel, each value in the histogram is the ratio of the average positive daily return to the average negative daily return for the corresponding instrument.
+
+**Slugging Ratio (by period) using alpha returns** ```PERFORMANCE``` &#151; 
 Ratio of the average alpha return of winning days to losing days.
-Example In this case 0.912% is the Slugging Ratio value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Slugging Ratio values seen in the period.The security with the largest Slugging Ratio was AOLWCL_US at 3.23%.
-Slugging Ratio (by rollup) PERFORMANCE
-The ratio of the average return of winning positions to losing positions.
-Details The headline number is the ratio of the average return over the full period for winning instruments to the average return over the full period for losing instruments. The values in the time series are the ratio of the average return of the winning instruments over each interval (day, month, ...) to the average return over each interval for losing instruments. In the data panel, each value in the histogram is the ratio of the full period return to the average full period return of losers (if the instrument was a loser) or winners (if the instrument was a winner. This value is signed, negative for losers. While not a proper slugging ratio itself, it highlights the contribution each name made to the overall ratio.
-Slugging Ratio (by rollup) using alpha returns PERFORMANCE
+
+**Slugging Ratio (by rollup)** ```PERFORMANCE``` &#151; 
+The ratio of the average return of winning positions to losing positions.<BR>
+**Details:** The headline number is the ratio of the average return over the full period for winning instruments to the average return over the full period for losing instruments. The values in the time series are the ratio of the average return of the winning instruments over each interval (day, month, ...) to the average return over each interval for losing instruments. In the data panel, each value in the histogram is the ratio of the full period return to the average full period return of losers (if the instrument was a loser) or winners (if the instrument was a winner. This value is signed, negative for losers. While not a proper slugging ratio itself, it highlights the contribution each name made to the overall ratio.
+
+**Slugging Ratio (by rollup) using alpha returns** ```PERFORMANCE``` &#151; 
 Ratio of the average return of winning positions to losing positions.
-Example In this case 1.09% is the ending value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest ending values seen in the period.The security with the largest ending was SPY Residual at 31.6%.
-Sortino Ratio PERFORMANCE
-A measurement of historic risk-adjusted performance.
-Details It is calculated by dividing portfolio returns by the volatility of negative portfolio returns. Sortino ratios provide a scaling mechanism to compare portfolios with differing degrees of risk without introducing a penalty for upside volatility.
-Example In this case 3.32 is the Sortino ratio value at the end of November 2015 .The Hi and Lo values represent the largest and smallest Sortino ratio values seen in the period.The security with the largest Sortino ratio was WB_US_1 at 7.2.
-Sortino Ratio Geometric Annualized PERFORMANCE
-A measurement of historic risk-adjusted performance.
-Details It is calculated by dividing geometric portfolio returns by the volatility of negative portfolio returns. Sortino ratios provide a scaling mechanism to compare portfolios with differing degrees of risk without introducing a penalty for upside volatility.
+
+**Sortino Ratio** ```PERFORMANCE``` &#151; 
+A measurement of historic risk-adjusted performance.<BR>
+**Details:** It is calculated by dividing portfolio returns by the volatility of negative portfolio returns. Sortino ratios provide a scaling mechanism to compare portfolios with differing degrees of risk without introducing a penalty for upside volatility.
+
+**Sortino Ratio Geometric Annualized** ```PERFORMANCE``` &#151; 
+A measurement of historic risk-adjusted performance.<BR>
+**Details:** It is calculated by dividing geometric portfolio returns by the volatility of negative portfolio returns. Sortino ratios provide a scaling mechanism to compare portfolios with differing degrees of risk without introducing a penalty for upside volatility.
 Example In this case 1.31 is the geometric Sortino ratio value at the end of November 2015 .The Hi and Lo values represent the largest and smallest geometric Sortino ratio values seen in the period.The security with the largest geometric Sortino ratio was WB_US_1 at 40.6.
 Static Position Compare PERFORMANCE
 Difference of actual return and return as a result of fixing the portfolio at the start of period.
