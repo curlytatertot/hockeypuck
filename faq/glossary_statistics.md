@@ -718,13 +718,13 @@ Difference of actual return and the return of a portfolio fixed at the end of pe
 
 **Static Position Return** ```PERFORMANCE``` &#151; 
 Return as a result of fixing the portfolio at the start of period.
-Example In this case 0.0% is the total Static Position Return value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Static Position Return values seen in the period.The security with the largest total Static Position Return was A_US at 0.0%.
-Static Position Return (posterior) PERFORMANCE
+
+**Static Position Return (posterior)** ```PERFORMANCE``` &#151; 
 Return of a portfolio fixed at the end of period over the period.
-Example In this case 0.0% is the total Static Position Return value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Static Position Return values seen in the period.The security with the largest total Static Position Return was A_US at 0.0%.
-Strategy Decomp (baseline weight) TRADING
+
+**Strategy Decomp (baseline weight)** ```TRADING``` &#151; 
 The baseline weight used in the baseline and strategic terms
-Example In this case 409% is the Strategy Decomp value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Strategy Decomp values seen in the period.The security with the largest Strategy Decomp was A_US at 0.815%.
+
 Strategy Decomp (baseline) TRADING
 Decomposition of P&L into baseline, strategic, tactical, and execution components. The baseline component is the return of a portfolio having with a single baseline weight when held. The baseline is the rolling average weight across all names.
 Example In this case 829% is the total Strategy Decomp value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Strategy Decomp values seen in the period.The security with the largest total Strategy Decomp was NFLX_US at 4.87%.
