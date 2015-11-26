@@ -797,13 +797,13 @@ The absolute value of trading on a given day. Either as a dollar amount, fractio
 **Upside Capture** ```PERFORMANCE``` &#151; 
 Ratio of portfolio return to index return on index up periods.
 
-Value at risk RISK
+**Value at risk** ```RISK``` &#151; 
 A forward looking measure of risk representing a hypothetical maximum daily loss for the portfolio at a 5% probability level based on a Gaussian model.
-Example In this case 7.13% is the average value-at-risk value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average value-at-risk values seen in the period.The security with the largest average value-at-risk was AAPL_US at 0.384%.
-Value at risk (EWMA) RISK
+
+**Value at risk (EWMA)** ```RISK``` &#151; 
 Parametric value at risk. Uses volatility estimate based on exponential weighted average.
-Example In this case 6.72% is the average Value at risk value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average Value at risk values seen in the period.The security with the largest average Value at risk was AAPL_US at 0.375%.
-Volume MARKETPLACE
-The equally weighted average trading volume for all instruments ever owned in the portfolio through the period.
-Details Instrument values represent the 20-day (trailing) median daily trading volume through the period.
+
+**Volume** ```MARKETPLACE``` &#151; 
+The equally weighted average trading volume for all instruments ever owned in the portfolio through the period.<BR>
+**Details:** Instrument values represent the 20-day (trailing) median daily trading volume through the period.
 Example In this case $712,194,655.82 is the instrument-volume value at the end of November 2015 in dollars.The Hi and Lo values represent the largest and smallest instrument-volume values seen in the period.The security with the largest instrument-volume was AAPL_US at $5,058,722,279.03.
