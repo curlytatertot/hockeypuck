@@ -647,7 +647,7 @@ Realized volatility over a rolling long window.
 **Realized volatility (rolling, short window)** ```RISK``` &#151; 
 Realized volatility over a rolling short window.
 
-**Return on an invested basis using tradesç
+**Return on an invested basis using trades** ```PERFORMANCE``` &#151; 
 Portfolio P&L represented on a invested (ROIC) basis using trades.
 
 **Returns (actual)** ```PERFORMANCE``` &#151; 
