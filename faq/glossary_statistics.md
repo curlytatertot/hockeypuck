@@ -725,12 +725,12 @@ Return of a portfolio fixed at the end of period over the period.
 **Strategy Decomp (baseline weight)** ```TRADING``` &#151; 
 The baseline weight used in the baseline and strategic terms
 
-Strategy Decomp (baseline) TRADING
+**Strategy Decomp (baseline)** ```TRADING``` &#151; 
 Decomposition of P&L into baseline, strategic, tactical, and execution components. The baseline component is the return of a portfolio having with a single baseline weight when held. The baseline is the rolling average weight across all names.
-Example In this case 829% is the total Strategy Decomp value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Strategy Decomp values seen in the period.The security with the largest total Strategy Decomp was NFLX_US at 4.87%.
-Strategy Decomp (baseline, benchmark) TRADING
+
+**Strategy Decomp (baseline, benchmark)** ```TRADING``` &#151; 
 Decomposition of P&L into baseline, strategic, tactical, and execution components. The baseline benchmark component is the return of a portfolio having with a single baseline weight when held times the excess return. The baseline is the rolling average weight across all names. The benchmark return is the index return.
-Example In this case 774% is the total Strategy Decomp value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Strategy Decomp values seen in the period.The security with the largest total Strategy Decomp was ETFC_US at 1.59%.
+
 Strategy Decomp (baseline, excess) TRADING
 Decomposition of P&L into baseline, strategic, tactical, and execution components. The baseline excess component is the return of a portfolio having with a single baseline weight when held times the excess return. The baseline is the rolling average weight across all names. The excess return is the underlying instrument return minus the index return.
 Example In this case 54.8% is the total Strategy Decomp value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Strategy Decomp values seen in the period.The security with the largest total Strategy Decomp was NFLX_US at 3.71%.
