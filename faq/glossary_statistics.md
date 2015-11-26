@@ -715,8 +715,8 @@ Difference of actual return and return as a result of fixing the portfolio at th
 
 **Static Position Compare (posterior)** ```PERFORMANCE``` &#151; 
 Difference of actual return and the return of a portfolio fixed at the end of period over the period.
-Example In this case 157% is the total Static Position Compare value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Static Position Compare values seen in the period.The security with the largest total Static Position Compare was AAPL_US at 8.12%.
-Static Position Return PERFORMANCE
+
+**Static Position Return** ```PERFORMANCE``` &#151; 
 Return as a result of fixing the portfolio at the start of period.
 Example In this case 0.0% is the total Static Position Return value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest total Static Position Return values seen in the period.The security with the largest total Static Position Return was A_US at 0.0%.
 Static Position Return (posterior) PERFORMANCE
