@@ -397,13 +397,13 @@ The ex-ante or expected volatility of an instrument.
 **Label for open and closed positions** ```MARKETPLACE``` &#151; 
 Label for open and closed positions.
 
-Label for winners and losers MARKETPLACE
+**Label for winners and losers** ```MARKETPLACE``` &#151; 
 Label for winners (non-negative p&l) and losers (negative p&l).
-Example In this case 0.0% is the Label for winners and losers value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Label for winners and losers values seen in the period.The security with the largest Label for winners and losers was CIT_US at 2%.
-Liquidity EXPOSURE
-The number of days to liquidate the portfolio.
-Details This calculation is made under the assumption that one can liquidate 10% of the 20-day (trailing) median daily trading volume for an instrument each day.
-Example In this case 7.62E-08 is the number of days to liquidate at the end of November 2015 .The Hi and Lo values represent the largest and smallest number of days to liquidate seen in the period.The security with the largest number of days to liquidate was BRKB_US at 7.62E-08.
+
+**Liquidity** ```EXPOSURE``` &#151; 
+The number of days to liquidate the portfolio.<BR>
+**Details:** This calculation is made under the assumption that one can liquidate 10% of the 20-day (trailing) median daily trading volume for an instrument each day.
+
 Liquidity (waterfall) EXPOSURE
 Days to liquidate fixed fraction of the portfolio.
 Example In this case 1 is the Liquidity value at the end of November 2015 .The Hi and Lo values represent the largest and smallest Liquidity values seen in the period.The security with the largest Liquidity was A_US at 0.0.
