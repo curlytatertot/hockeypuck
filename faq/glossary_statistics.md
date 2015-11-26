@@ -102,12 +102,12 @@ Average of nonzero positions.
 **Average of nonzero rollup using alpha returns** ```PERFORMANCE``` &#151; 
 Average of nonzero positions using alpha returns.
 
-Average of nonzero rollup when index down PERFORMANCE
-Average of nonzero positions when index down
-Example In this case 0.0% is the value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was A_US at 0.0%.
-Average of nonzero rollup when index up PERFORMANCE
-Average of nonzero positions when index up
-Example In this case -0.256% is the value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was KMI_US at 0.342%.
+**Average of nonzero rollup when index down** ```PERFORMANCE``` &#151; 
+Average of nonzero positions when index down.
+
+**Average of nonzero rollup when index up** ```PERFORMANCE``` &#151; 
+Average of nonzero positions when index up.
+
 Average of up days PERFORMANCE
 The average daily portfolio or sub-portfolio return for days on which the portfolio had a positive return from the start of the selected time period until the indicated day.
 Example In this case 0.687% is the average-of-up-days value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average-of-up-days values seen in the period.The security with the largest average-of-up-days was SPY Residual at 0.0466%.
