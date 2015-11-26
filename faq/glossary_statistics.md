@@ -268,58 +268,61 @@ The average dividend yield of the positions in the portfolio.
 Ratio of portfolio return to index return on index down periods.
 
 **Drawdown** ```PERFORMANCE``` &#151; 
-The maximum negative return from peak to trough during the selected period. Used mostly by investors to determine a component of risk and can highlight active management techniques like stop losses.
+The maximum negative return from peak to trough during the selected period. Used mostly by investors to determine a component of risk and can highlight active management techniques like stop losses.<BR>
+**Formula:** Daily returns are calculated as the sum of individual instrument returns ($) for the day divided by the previous day's closing capital:<BR>
+$$R^{daily}_t = (\sum\limits_{i} R^{daily}_{i,t}) / CAP_{t-1}$$
 
-Formula Daily returns are calculated as the sum of individual instrument returns ($) for the day divided by the previous day's closing capital:
-\[ R^{daily}_t = (\sum\limits_{i} R^{daily}_{i,t}) / CAP_{t-1} \]
-The monthly returns are calculated by compounding the daily returns over the corresponding month:
-\[ R^{monthly}_t = (\prod\limits_{d \in t} (1 + R^{daily}_{d})) - 1 \]
-The cumulative return at any time is computed by compounding the monthly returns.
-\[ R_T = (\prod\limits_{t \le T} (1 + R^{monthly}_{t})) - 1 \]
-The drawdown at any time is computed from the cumulative return at that time and the maximum cumulative return at any earlier time as follows:
-\[ DD_T = \frac{R_T + 1}{\max\limits_{t \le T} R_{t} + 1} - 1 \]
-Effective Exposure EXPOSURE
+The monthly returns are calculated by compounding the daily returns over the corresponding month:<BR>
+$$R^{monthly}_t = (\prod\limits_{d \in t} (1 + R^{daily}_{d})) - 1$$
+
+The cumulative return at any time is computed by compounding the monthly returns.<BR>
+$$R_T = (\prod\limits_{t \le T} (1 + R^{monthly}_{t})) - 1$$
+
+The drawdown at any time is computed from the cumulative return at that time and the maximum cumulative return at any earlier time as follows:<BR>
+$$DD_T = \frac{R_T + 1}{\max\limits_{t \le T} R_{t} + 1} - 1$$
+
+**Effective Exposure** ```EXPOSURE``` &#151; 
 Effective exposure, total beta adjusted exposure for portfolio to each instrument.
-Example In this case 1.2% is the average Effective Exposure value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average Effective Exposure values seen in the period.The security with the largest average Effective Exposure was JNJ_US at 10.5%.
-Expected (ex-ante) correlation RISK
+
+**Expected (ex-ante) correlation** ```RISK``` &#151; 
 The ex-ante correlation between the portfolio and the SPY_US index.
-Example In this case 0.997 is the average expected-correlation value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest average expected-correlation values seen in the period.The security with the largest average expected-correlation was BEN_US at 0.822.
-Expected (ex-ante) downside beta RISK
-A forward looking measure of the sensitivity of the portfolio or sub-portfolio to the SPY_US index on its down days.
-Details The downside beta of an instrument is the first-order sensitivity (or regression slope) of the underlying instrument daily returns regressed against the daily index returns for the previous 120 trading days, for days on which the daily index return is negative. For a portfolio or sub-portfolio, the expected downside beta for a given day is the sum of each position's instrument downside beta multiplied by that position's weight in the portfolio or sub-portfolio for that day. It can be thought of as the first-order sensitivity of the current portfolio's returns to the index returns on down market days.
-Example In this case 0.998 is the average expected-downside-beta value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest average expected-downside-beta values seen in the period.The security with the largest average expected-downside-beta was AAPL_US at 0.0308.
-Expected (ex-ante) return RISK
+
+**Expected (ex-ante) downside beta** ```RISK``` &#151; 
+A forward looking measure of the sensitivity of the portfolio or sub-portfolio to the SPY_US index on its down days.<BR>
+**Details:** The downside beta of an instrument is the first-order sensitivity (or regression slope) of the underlying instrument daily returns regressed against the daily index returns for the previous 120 trading days, for days on which the daily index return is negative. For a portfolio or sub-portfolio, the expected downside beta for a given day is the sum of each position's instrument downside beta multiplied by that position's weight in the portfolio or sub-portfolio for that day. It can be thought of as the first-order sensitivity of the current portfolio's returns to the index returns on down market days.
+
+**Expected (ex-ante) return** ```RISK``` &#151; 
 Expected (ex-ante) return given portfolio positions, using Black Litterman approach.
-Example In this case 0.167% is the average Expected value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average Expected values seen in the period.The security with the largest average Expected was MTW_US at 0.413%.
-Expected (ex-ante) upside beta RISK
-A forward looking measure of the sensitivity of the portfolio or sub-portfolio to the SPY_US index on its up days.
-Details The upside beta of an instrument is the first-order sensitivity (or regression slope) of the underlying instrument daily returns regressed against the daily index returns for the previous 120 trading days, for days on which the daily index return is positive. For a portfolio or sub-portfolio, the expected upside beta for a given day is the sum of each position's instrument upside beta multiplied by that position's weight in the portfolio or sub-portfolio for that day. It can be thought of as the first-order sensitivity of the current portfolio's returns to the index returns on up market days.
-Example In this case 1.01 is the average expected-upside-beta value over the period from July 2009 to November 2015.The Hi and Lo values represent the largest and smallest average expected-upside-beta values seen in the period.The security with the largest average expected-upside-beta was AAPL_US at 0.0292.
-Expected Leaveout Volatility RISK
+
+**Expected (ex-ante) upside beta** ```RISK``` &#151; 
+A forward looking measure of the sensitivity of the portfolio or sub-portfolio to the SPY_US index on its up days.<BR>
+**Details:** The upside beta of an instrument is the first-order sensitivity (or regression slope) of the underlying instrument daily returns regressed against the daily index returns for the previous 120 trading days, for days on which the daily index return is positive. For a portfolio or sub-portfolio, the expected upside beta for a given day is the sum of each position's instrument upside beta multiplied by that position's weight in the portfolio or sub-portfolio for that day. It can be thought of as the first-order sensitivity of the current portfolio's returns to the index returns on up market days.
+
+**Expected Leaveout Volatility** ```RISK``` &#151; 
 Change to annualized expected (ex-ante) volatility, by leaving out instrument.
-Example In this case 17.5% is the Expected Leaveout Volatility value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest Expected Leaveout Volatility values seen in the period.The security with the largest Expected Leaveout Volatility was A_US at 0.0%.
-Expected Volatility RISK
+
+**Expected Volatility** ```RISK``` &#151; 
 A forward looking measure of risk representing the possible variation in the size of returns.
-Details The estimate for each day is based on the position of the portfolio combined with historical covariances of the instruments in the portfolio. It is computed daily and scaled to an annualized statistic.
-Example In this case 15% is the average expected-volatility value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average expected-volatility values seen in the period.The security with the largest average expected-volatility was AAPL_US at 0.808%.
-Expected Volatility (EWMA) RISK
+**Details:** The estimate for each day is based on the position of the portfolio combined with historical covariances of the instruments in the portfolio. It is computed daily and scaled to an annualized statistic.
+
+**Expected Volatility (EWMA)** ```RISK``` &#151; 
 Annualized expected (ex-ante) volatility using exponential moving average weighting.
-Example In this case 14.2% is the average Expected Volatility value over the period from July 2009 to November 2015 as a percentage.The Hi and Lo values represent the largest and smallest average Expected Volatility values seen in the period.The security with the largest average Expected Volatility was AAPL_US at 0.79%.
-Exposure return correlation EXPOSURE
+
+**Exposure return correlation** ```EXPOSURE``` &#151; 
 The correlation between individual position exposures and returns (on a daily basis).
-Example In this case 0.0292 is the exposure-return-correlation value at the end of November 2015.The Hi and Lo values represent the largest and smallest exposure-return-correlation values seen in the period.The security with the largest exposure-return-correlation was WAYN_US at 0.284.
-Filter Indicator MARKETPLACE
+
+**Filter Indicator** ```MARKETPLACE``` &#151; 
 Indicator for filtered / unfiltered time points.
-Example In this case 1040000 is the total Filter Indicator value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest total Filter Indicator values seen in the period.The security with the largest total Filter Indicator was A_US at 1670.
-Forward Price to Earnings Ratio MARKETPLACE
+
+**Forward Price to Earnings Ratio** ```MARKETPLACE``` &#151; 
 Forward price to earnings ratio of underlying instrument.
-Example In this case 0.0 is the average Forward Price to Earnings Ratio value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Forward Price to Earnings Ratio values seen in the period.The security with the largest average Forward Price to Earnings Ratio was A_US at 0.0.
-Forward Price to Earnings Ratio (when held) MARKETPLACE
+
+**Forward Price to Earnings Ratio (when held)** ```MARKETPLACE``` &#151; 
 Forward price to earnings ratio of underlying instrument (when held).
-Example In this case 0.0 is the average Forward Price to Earnings Ratio value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Forward Price to Earnings Ratio values seen in the period.The security with the largest average Forward Price to Earnings Ratio was A_US at 0.0.
-Fraction Float MARKETPLACE
+
+**Fraction Float** ```MARKETPLACE``` &#151; 
 Public float as fraction of market cap.
-Example In this case 0.0 is the average Fraction Float value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Fraction Float values seen in the period.The security with the largest average Fraction Float was A_US at 0.0.
+
 Fraction Float (when held) MARKETPLACE
 Public float as fraction of market cap (when held).
 Example In this case 0.0 is the average Fraction Float value over the period from July 2009 to November 2015 .The Hi and Lo values represent the largest and smallest average Fraction Float values seen in the period.The security with the largest average Fraction Float was A_US at 0.0.
