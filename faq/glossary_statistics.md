@@ -457,12 +457,12 @@ Number of down interval when index down
 **Number of down interval when index up** ```PERFORMANCE``` &#151; 
 Number of down interval when index up
 
-Number of down rollup PERFORMANCE
+**Number of down rollup** ```PERFORMANCE``` &#151; 
 The number of positions in the portfolio or sub-portfolio with a negative return from the start of the selected time period until the indicated day.
-Example In this case 77 is the number-of-down-positions at the end of November 2015.The Hi and Lo values represent the largest and smallest number-of-down-positions values seen in the period.The security with the largest number-of-down-positions was AA_US_2 at 1.
-Number of down rollup using alpha returns PERFORMANCE
-Number of down positions using alpha returns
-Example In this case 319% is the value at the end of November 2015 as a percentage.The Hi and Lo values represent the largest and smallest values seen in the period.The security with the largest was AA_US at 1%.
+
+**Number of down rollup using alpha returns** ```PERFORMANCE``` &#151; 
+Number of down positions using alpha returns.
+
 Number of down rollup when index down PERFORMANCE
 The number of positions in the portfolio or sub-portfolio with a negative return from the start of the selected time period until the indicated day, computed on periods when the SPY_US index is down.
 Example In this case 0.0 is the number-of-down-positions-when-index-down at the end of November 2015.The Hi and Lo values represent the largest and smallest number-of-down-positions-when-index-down values seen in the period.The security with the largest number-of-down-positions-when-index-down was A_US at 0.0.
