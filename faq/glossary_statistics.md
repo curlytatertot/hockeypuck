@@ -48,7 +48,7 @@ $$ ADR^{daily}_t = \frac{\sum\limits_{i} R^{daily}_{i,t}}{ CAP_{t-1} \times |\{ 
 
 The monthly values are averaged over each day in the corresponding month.
 
-**Average gross exposure over rollups.** ```EXPOSUR``` &#151; 
+**Average gross exposure over rollups.** ```EXPOSURE``` &#151; 
 Average delta adjusted gross exposure of positions.
 
 **Average of down days** ```PERFORMANCE``` &#151; 
@@ -140,7 +140,7 @@ The average position return for positions in the portfolio or sub-portfolio with
 The average position return for positions in the portfolio or sub-portfolio with a positive return from the start of the selected time period until the indicated day, computed on periods when the SPY_US index is up.
 
 **Average position return** ```PERFORMANCE``` &#151; 
-The average return of distinct positions in an instrument in the selected time period. A distinct position begins when a long (short) in an instrument is first established and ends when the position in the instrument becomes flat or short (long).<BR> _Formula:_ A distinct position is a long (short) in a particular security that begins on the day the position is opened and ends on the day it is closed or reverses direction to short (long), or until the current time, whichever is earlier. The return for a position is the compounded daily return for its security over the duration of the trade.<BR>
+The average return of distinct positions in an instrument in the selected time period. A distinct position begins when a long (short) in an instrument is first established and ends when the position in the instrument becomes flat or short (long).<BR> **Formula:** A distinct position is a long (short) in a particular security that begins on the day the position is opened and ends on the day it is closed or reverses direction to short (long), or until the current time, whichever is earlier. The return for a position is the compounded daily return for its security over the duration of the trade.<BR>
 $$R^p = \prod\limits_{t_O \le t \le t_C } (1 + R^{daily}_{s(p),t}) - 1$$
 
 The set of distinct positions for a portfolio at a given point in time is the union of the sets of positions for each included security up until that time.<BR>
