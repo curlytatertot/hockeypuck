@@ -11,5 +11,5 @@
 * [System Status](faq/settings/system_status.md)
 * [Historical Gross](usecase/historical_gross.md)
 * [Glossary: Statistics](faq/glossary_statistics.md)
-* Additivity
+* [Additivity](additivity_smoothing.md)
 
