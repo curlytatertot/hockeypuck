@@ -8,6 +8,6 @@
 ## [Page view: Settings](faq/settings/page.md)
 ## [Vault: Settings](faq/settings/vault.md)
 ## [System status: Settings](faq/settings/system_status.md)
-## [Get numbers for historical gross and net exposures since inception: Use Case](usecase/historicalgross.md)
+
 ## [Definitions of Statistics / Data Lenses](faq/glossary_statistics.md)
 ## [Understand data smoothing / additivity](additivity.md)
