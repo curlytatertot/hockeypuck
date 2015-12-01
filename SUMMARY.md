@@ -10,6 +10,6 @@
    * [Vault](faq/settings/vault.md)
    * [System Status](faq/settings/system_status.md)
    * [Glossary of Statistics](faq/glossary_statistics.md)
-* [Use Cases and Examples](uses/usecasemd.md)
+* [Use Cases and Examples](uses/usecases.md)
 * [Additivity](additivity_smoothing.md)
 
