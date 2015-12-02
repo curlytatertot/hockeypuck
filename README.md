@@ -6,4 +6,4 @@ General and specific how-to explanations and instructions for how to use and und
 ## [FAQs](FAQ.md)
 
 
-## [Use Cases and Examples](uses/historicalgross.md)
+## [Use Cases and Examples](uses/usecases.md)
