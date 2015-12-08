@@ -8,3 +8,4 @@ General and specific how-to explanations and instructions for how to use and und
 
 ## [Use Cases and Examples](uses/usecases.md)
 
+![](stencilsample1.png)
