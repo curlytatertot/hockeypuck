@@ -5,7 +5,7 @@
 ####To view a glossary of statistics / data lenses specific to your portfolios and layouts, enter:
 ###https://yourservername.lightkeeperhq.com/help/glossary
 
-#####Be sure to replace "yourservername" with the name of your account (usually the name of your fi.  The list of stats is long, and will take a minute or so to download.
+#####Be sure to replace "yourservername" with the name of your account (usually the name of your firm or fund).  The list of stats is long, and will take a minute or so to download.
 
 #####In addition to the defitions (below), examples of each stat are included, using data and choices specific to your layout.
 
