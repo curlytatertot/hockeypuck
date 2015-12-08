@@ -15,3 +15,4 @@
 
 For a comprehensive summary of methodologies used for adjusting component returns to achieve additivity: _Multiperiod Arithmetic Attribution_, Jose Menchero, Financial Analysts Journal, Volume 60, Number 4, 2004, CFA Institute
 
+#### [Illustrated: Download PDF &#151; Data Smoothing: Additivity](www.lightkeeper.com/gitbook/Lightkeeper_Additivity.pdf)
