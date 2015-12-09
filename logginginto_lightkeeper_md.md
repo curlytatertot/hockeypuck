@@ -9,8 +9,8 @@
 
   
   
- ### Multiple Google Logins 
-#### For those who have other gmail accounts, Google allows for multiple logins &#151; including a mix of personal, organizational, and business accounts. 
+### Multiple Google Logins 
+#### For those with other gmail accounts, Google allows for multiple logins &#151; including a mix of personal, organizational, and business accounts. 
 
 #### For those who have other gmail accounts, Google allows for multiple logins &#151; including a mix of personal, organizational, and business accounts. 
 ||**To set up multiple Google/Gmail logins**|
@@ -25,6 +25,7 @@
 |:----|----| 
 |1)|On the upper right corner, click on the profile photo or email address to access the dropdown menu| 
 |2)|Click on the account you wish to use; to access Lightkeeper, choose the LightkeeperHQ.com address| 
+<BR>
  
 ||**To Logout**| 
 |:----|----| 
