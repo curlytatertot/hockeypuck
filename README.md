@@ -3,6 +3,7 @@
 General and specific how-to explanations and instructions for how to use and understand Lightkeeper.
 
 
+## [Logging into Lightkeeper](login.md)
 ## [FAQs](chapter1.md)
 
 
