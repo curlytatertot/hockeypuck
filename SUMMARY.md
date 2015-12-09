@@ -14,5 +14,5 @@
 * [Use Cases and Examples](uses/usecases.md)
    * [Historical Gross Since Inception](uses/historical_gross.md)
 * [Additivity](additivity_smoothing.md)
-* [Logging Into Lightkeeper](loggingin.md)
+* [Logging Into Lightkeeper](logginginmd.md)
 
