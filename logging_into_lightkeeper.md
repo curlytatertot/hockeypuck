@@ -5,7 +5,7 @@
 |:----|----|
 |Account name |firstname_lastname@lightkeeperhq.com|
 |Password|Encrypted and emailed to the user's company email address|
-|Server name| companyname.lightkeeperhq.com
+|Server name| _companyname.lightkeeperhq.com_
 
 Note, you may need to log-out of any other gmail account, then log into your lightkeeperhq.com account.
 
@@ -14,7 +14,7 @@ Note, you may need to log-out of any other gmail account, then log into your lig
 
 
 ### Lost Email or Password
-#####Please email support@lightkeeperhq.com to recover or re-issue user access information.
+#####Please email [support@lightkeeperhq.com](mailto:support@lightkeeperhq.com) to recover or re-issue user access information.
 
 
 ---
