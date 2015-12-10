@@ -15,4 +15,5 @@
 * [Additivity](additivity_smoothing.md)
 * [Glossary of Statistics](faq/glossary_statistics.md)
 * [Logging In and Out of Lightkeeper](loginout.md)
+* Anatomy & Nomenclature: Getting Started
 
