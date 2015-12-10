@@ -30,6 +30,9 @@
 ||**To Logout**| 
 |:----|----| 
 |1)|To log out of Lightkeeper only, access the URL: _companyname.lightkeeperhq.com/signout_ (replace "companyname" with your firm's Lightkeeper account name)| 
-|2)| 
+|2)| |
+<BR>
+
+![](google_multiplelogin.png)
  
 
